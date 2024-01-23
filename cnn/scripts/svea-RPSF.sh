@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=0 python3 src/train.py --seed 0 --algorithm svea --use_aux

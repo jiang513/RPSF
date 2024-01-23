@@ -1,0 +1,23 @@
+{
+    "os": "Linux-5.15.0-91-generic-x86_64-with-glibc2.10",
+    "python": "3.8.5",
+    "heartbeatAt": "2024-01-22T15:58:14.605097",
+    "startedAt": "2024-01-22T15:58:11.832046",
+    "docker": null,
+    "gpu": "NVIDIA GeForce RTX 3090",
+    "gpu_count": 1,
+    "cpu_count": 96,
+    "cuda": "10.2.89",
+    "args": [
+        "--seed",
+        "0",
+        "--algorithm",
+        "svea",
+        "--use_aux"
+    ],
+    "state": "running",
+    "program": "/aiarena/nas/18_data/jiangy/RPSF/cnn/src/train.py",
+    "host": "task-5000-jiangy-testrpsfcnn-master-0",
+    "username": "root",
+    "executable": "/home/wangmr/.conda/bin/python3"
+}

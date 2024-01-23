@@ -1,0 +1,58 @@
+aux: True
+aux_batch_size: 512
+/aiarena/nas/18_data/jiangy/RPSF/transformer/src/env/dm_control/dm_control/utils/containers.py:30: DeprecationWarning: Using or importing the ABCs from 'collections' instead of from 'collections.abc' is deprecated since Python 3.3, and in 3.9 it will stop working
+  class TaggedTasks(collections.Mapping):
+Working directory: logs/cheetah_run/svea/default/0
+Observations: (9, 96, 96)
+Cropped observations: (9, 96, 96)
+/aiarena/nas/18_data/jiangy/RPSF/transformer/src/env/dm_control/dm_control/mujoco/engine.py:897: DeprecationWarning: `np.bool` is a deprecated alias for the builtin `bool`. To silence this warning, use `bool` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.bool_` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  is_limited = physics.model.actuator_ctrllimited.ravel().astype(np.bool)
+/aiarena/nas/18_data/jiangy/RPSF/transformer/src/env/dm_control/dm_control/mujoco/engine.py:899: DeprecationWarning: `np.float` is a deprecated alias for the builtin `float`. To silence this warning, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  minima = np.full(num_actions, fill_value=-np.inf, dtype=np.float)
+/aiarena/nas/18_data/jiangy/RPSF/transformer/src/env/dm_control/dm_control/mujoco/engine.py:900: DeprecationWarning: `np.float` is a deprecated alias for the builtin `float`. To silence this warning, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  maxima = np.full(num_actions, fill_value=np.inf, dtype=np.float)
+/aiarena/nas/18_data/jiangy/RPSF/transformer/src/env/dm_control/dm_control/mujoco/engine.py:904: DeprecationWarning: `np.float` is a deprecated alias for the builtin `float`. To silence this warning, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  shape=(num_actions,), dtype=np.float, minimum=minima, maximum=maxima)
+/aiarena/nas/18_data/jiangy/RPSF/transformer/src/env/dmc2gym/dmc2gym/wrappers.py:10: DeprecationWarning: `np.int` is a deprecated alias for the builtin `int`. To silence this warning, use `int` by itself. Doing this will not modify any behavior and is safe. When replacing `np.int`, you may wish to use e.g. `np.int64` or `np.int32` to specify the precision. If you wish to review your current use, check the release note link for additional information.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  dim = np.int(np.prod(s.shape))
+/aiarena/nas/18_data/jiangy/RPSF/transformer/src/env/dm_control/dm_control/mujoco/engine.py:897: DeprecationWarning: `np.bool` is a deprecated alias for the builtin `bool`. To silence this warning, use `bool` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.bool_` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  is_limited = physics.model.actuator_ctrllimited.ravel().astype(np.bool)
+/aiarena/nas/18_data/jiangy/RPSF/transformer/src/env/dm_control/dm_control/mujoco/engine.py:899: DeprecationWarning: `np.float` is a deprecated alias for the builtin `float`. To silence this warning, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  minima = np.full(num_actions, fill_value=-np.inf, dtype=np.float)
+/aiarena/nas/18_data/jiangy/RPSF/transformer/src/env/dm_control/dm_control/mujoco/engine.py:900: DeprecationWarning: `np.float` is a deprecated alias for the builtin `float`. To silence this warning, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  maxima = np.full(num_actions, fill_value=np.inf, dtype=np.float)
+/aiarena/nas/18_data/jiangy/RPSF/transformer/src/env/dm_control/dm_control/mujoco/engine.py:904: DeprecationWarning: `np.float` is a deprecated alias for the builtin `float`. To silence this warning, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  shape=(num_actions,), dtype=np.float, minimum=minima, maximum=maxima)
+/aiarena/nas/18_data/jiangy/RPSF/transformer/src/env/dmc2gym/dmc2gym/wrappers.py:10: DeprecationWarning: `np.int` is a deprecated alias for the builtin `int`. To silence this warning, use `int` by itself. Doing this will not modify any behavior and is safe. When replacing `np.int`, you may wish to use e.g. `np.int64` or `np.int32` to specify the precision. If you wish to review your current use, check the release note link for additional information.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  dim = np.int(np.prod(s.shape))
+/aiarena/nas/18_data/jiangy/RPSF/transformer/src/env/dm_control/dm_control/mujoco/engine.py:897: DeprecationWarning: `np.bool` is a deprecated alias for the builtin `bool`. To silence this warning, use `bool` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.bool_` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  is_limited = physics.model.actuator_ctrllimited.ravel().astype(np.bool)
+/aiarena/nas/18_data/jiangy/RPSF/transformer/src/env/dm_control/dm_control/mujoco/engine.py:899: DeprecationWarning: `np.float` is a deprecated alias for the builtin `float`. To silence this warning, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  minima = np.full(num_actions, fill_value=-np.inf, dtype=np.float)
+/aiarena/nas/18_data/jiangy/RPSF/transformer/src/env/dm_control/dm_control/mujoco/engine.py:900: DeprecationWarning: `np.float` is a deprecated alias for the builtin `float`. To silence this warning, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  maxima = np.full(num_actions, fill_value=np.inf, dtype=np.float)
+/aiarena/nas/18_data/jiangy/RPSF/transformer/src/env/dm_control/dm_control/mujoco/engine.py:904: DeprecationWarning: `np.float` is a deprecated alias for the builtin `float`. To silence this warning, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  shape=(num_actions,), dtype=np.float, minimum=minima, maximum=maxima)
+/aiarena/nas/18_data/jiangy/RPSF/transformer/src/env/dmc2gym/dmc2gym/wrappers.py:10: DeprecationWarning: `np.int` is a deprecated alias for the builtin `int`. To silence this warning, use `int` by itself. Doing this will not modify any behavior and is safe. When replacing `np.int`, you may wish to use e.g. `np.int64` or `np.int32` to specify the precision. If you wish to review your current use, check the release note link for additional information.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  dim = np.int(np.prod(s.shape))
+Traceback (most recent call last):
+  File "/aiarena/nas/18_data/jiangy/RPSF/transformer/src/train.py", line 188, in <module>
+    main(args)
+  File "/aiarena/nas/18_data/jiangy/RPSF/transformer/src/train.py", line 110, in main
+    ted=args.ted
+AttributeError: 'Namespace' object has no attribute 'ted'

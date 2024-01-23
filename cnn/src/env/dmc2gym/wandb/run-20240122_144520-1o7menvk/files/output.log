@@ -1,0 +1,164 @@
+aux: True
+head_true: False
+Working directory: logs/reacher_easy/svea/0
+/aiarena/nas/18_data/jiangy/RPSF/cnn/src/env/dm_control/dm_control/utils/containers.py:30: DeprecationWarning: Using or importing the ABCs from 'collections' instead of from 'collections.abc' is deprecated since Python 3.3, and in 3.9 it will stop working
+  class TaggedTasks(collections.Mapping):
+/aiarena/nas/18_data/jiangy/RPSF/cnn/src/env/dm_control/dm_control/mujoco/engine.py:897: DeprecationWarning: `np.bool` is a deprecated alias for the builtin `bool`. To silence this warning, use `bool` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.bool_` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  is_limited = physics.model.actuator_ctrllimited.ravel().astype(np.bool)
+/aiarena/nas/18_data/jiangy/RPSF/cnn/src/env/dm_control/dm_control/mujoco/engine.py:899: DeprecationWarning: `np.float` is a deprecated alias for the builtin `float`. To silence this warning, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  minima = np.full(num_actions, fill_value=-np.inf, dtype=np.float)
+/aiarena/nas/18_data/jiangy/RPSF/cnn/src/env/dm_control/dm_control/mujoco/engine.py:900: DeprecationWarning: `np.float` is a deprecated alias for the builtin `float`. To silence this warning, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  maxima = np.full(num_actions, fill_value=np.inf, dtype=np.float)
+/aiarena/nas/18_data/jiangy/RPSF/cnn/src/env/dm_control/dm_control/mujoco/engine.py:904: DeprecationWarning: `np.float` is a deprecated alias for the builtin `float`. To silence this warning, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  shape=(num_actions,), dtype=np.float, minimum=minima, maximum=maxima)
+/aiarena/nas/18_data/jiangy/RPSF/cnn/src/env/dmc2gym/dmc2gym/wrappers.py:10: DeprecationWarning: `np.int` is a deprecated alias for the builtin `int`. To silence this warning, use `int` by itself. Doing this will not modify any behavior and is safe. When replacing `np.int`, you may wish to use e.g. `np.int64` or `np.int32` to specify the precision. If you wish to review your current use, check the release note link for additional information.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  dim = np.int(np.prod(s.shape))
+/aiarena/nas/18_data/jiangy/RPSF/cnn/src/env/dm_control/dm_control/mujoco/engine.py:897: DeprecationWarning: `np.bool` is a deprecated alias for the builtin `bool`. To silence this warning, use `bool` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.bool_` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  is_limited = physics.model.actuator_ctrllimited.ravel().astype(np.bool)
+/aiarena/nas/18_data/jiangy/RPSF/cnn/src/env/dm_control/dm_control/mujoco/engine.py:899: DeprecationWarning: `np.float` is a deprecated alias for the builtin `float`. To silence this warning, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  minima = np.full(num_actions, fill_value=-np.inf, dtype=np.float)
+/aiarena/nas/18_data/jiangy/RPSF/cnn/src/env/dm_control/dm_control/mujoco/engine.py:900: DeprecationWarning: `np.float` is a deprecated alias for the builtin `float`. To silence this warning, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  maxima = np.full(num_actions, fill_value=np.inf, dtype=np.float)
+/aiarena/nas/18_data/jiangy/RPSF/cnn/src/env/dm_control/dm_control/mujoco/engine.py:904: DeprecationWarning: `np.float` is a deprecated alias for the builtin `float`. To silence this warning, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  shape=(num_actions,), dtype=np.float, minimum=minima, maximum=maxima)
+/aiarena/nas/18_data/jiangy/RPSF/cnn/src/env/dmc2gym/dmc2gym/wrappers.py:10: DeprecationWarning: `np.int` is a deprecated alias for the builtin `int`. To silence this warning, use `int` by itself. Doing this will not modify any behavior and is safe. When replacing `np.int`, you may wish to use e.g. `np.int64` or `np.int32` to specify the precision. If you wish to review your current use, check the release note link for additional information.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  dim = np.int(np.prod(s.shape))
+/aiarena/nas/18_data/jiangy/RPSF/cnn/src/env/dm_control/dm_control/mujoco/engine.py:897: DeprecationWarning: `np.bool` is a deprecated alias for the builtin `bool`. To silence this warning, use `bool` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.bool_` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  is_limited = physics.model.actuator_ctrllimited.ravel().astype(np.bool)
+/aiarena/nas/18_data/jiangy/RPSF/cnn/src/env/dm_control/dm_control/mujoco/engine.py:899: DeprecationWarning: `np.float` is a deprecated alias for the builtin `float`. To silence this warning, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  minima = np.full(num_actions, fill_value=-np.inf, dtype=np.float)
+/aiarena/nas/18_data/jiangy/RPSF/cnn/src/env/dm_control/dm_control/mujoco/engine.py:900: DeprecationWarning: `np.float` is a deprecated alias for the builtin `float`. To silence this warning, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  maxima = np.full(num_actions, fill_value=np.inf, dtype=np.float)
+/aiarena/nas/18_data/jiangy/RPSF/cnn/src/env/dm_control/dm_control/mujoco/engine.py:904: DeprecationWarning: `np.float` is a deprecated alias for the builtin `float`. To silence this warning, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  shape=(num_actions,), dtype=np.float, minimum=minima, maximum=maxima)
+/aiarena/nas/18_data/jiangy/RPSF/cnn/src/env/dmc2gym/dmc2gym/wrappers.py:10: DeprecationWarning: `np.int` is a deprecated alias for the builtin `int`. To silence this warning, use `int` by itself. Doing this will not modify any behavior and is safe. When replacing `np.int`, you may wish to use e.g. `np.int64` or `np.int32` to specify the precision. If you wish to review your current use, check the release note link for additional information.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  dim = np.int(np.prod(s.shape))
+Observations: (9, 84, 84)
+Cropped observations: (9, 84, 84)
+self.layers: ModuleList(
+  (0): NormalizeImg()
+  (1): Conv2d(9, 32, kernel_size=(3, 3), stride=(2, 2))
+  (2): ReLU()
+  (3): Conv2d(32, 32, kernel_size=(3, 3), stride=(1, 1))
+  (4): ReLU()
+  (5): Conv2d(32, 32, kernel_size=(3, 3), stride=(1, 1))
+  (6): ReLU()
+  (7): Conv2d(32, 32, kernel_size=(3, 3), stride=(1, 1))
+  (8): ReLU()
+  (9): Conv2d(32, 32, kernel_size=(3, 3), stride=(1, 1))
+  (10): ReLU()
+  (11): Conv2d(32, 32, kernel_size=(3, 3), stride=(1, 1))
+  (12): ReLU()
+  (13): Conv2d(32, 32, kernel_size=(3, 3), stride=(1, 1))
+  (14): ReLU()
+  (15): Conv2d(32, 32, kernel_size=(3, 3), stride=(1, 1))
+  (16): ReLU()
+  (17): Conv2d(32, 32, kernel_size=(3, 3), stride=(1, 1))
+  (18): ReLU()
+  (19): Conv2d(32, 32, kernel_size=(3, 3), stride=(1, 1))
+  (20): ReLU()
+  (21): Conv2d(32, 32, kernel_size=(3, 3), stride=(1, 1))
+)
+self.layers[:2*shared_cnn_layers]: ModuleList(
+  (0): NormalizeImg()
+  (1): Conv2d(9, 32, kernel_size=(3, 3), stride=(2, 2))
+  (2): ReLU()
+  (3): Conv2d(32, 32, kernel_size=(3, 3), stride=(1, 1))
+  (4): ReLU()
+  (5): Conv2d(32, 32, kernel_size=(3, 3), stride=(1, 1))
+  (6): ReLU()
+  (7): Conv2d(32, 32, kernel_size=(3, 3), stride=(1, 1))
+  (8): ReLU()
+  (9): Conv2d(32, 32, kernel_size=(3, 3), stride=(1, 1))
+  (10): ReLU()
+  (11): Conv2d(32, 32, kernel_size=(3, 3), stride=(1, 1))
+  (12): ReLU()
+  (13): Conv2d(32, 32, kernel_size=(3, 3), stride=(1, 1))
+  (14): ReLU()
+  (15): Conv2d(32, 32, kernel_size=(3, 3), stride=(1, 1))
+  (16): ReLU()
+  (17): Conv2d(32, 32, kernel_size=(3, 3), stride=(1, 1))
+  (18): ReLU()
+  (19): Conv2d(32, 32, kernel_size=(3, 3), stride=(1, 1))
+)
+x_shpae: torch.Size([9, 84, 84])
+x_shpae: torch.Size([32, 41, 41])
+x_shpae: torch.Size([32, 41, 41])
+x_shpae: torch.Size([32, 39, 39])
+x_shpae: torch.Size([32, 39, 39])
+x_shpae: torch.Size([32, 37, 37])
+x_shpae: torch.Size([32, 37, 37])
+x_shpae: torch.Size([32, 35, 35])
+x_shpae: torch.Size([32, 35, 35])
+x_shpae: torch.Size([32, 33, 33])
+x_shpae: torch.Size([32, 33, 33])
+x_shpae: torch.Size([32, 31, 31])
+x_shpae: torch.Size([32, 31, 31])
+x_shpae: torch.Size([32, 29, 29])
+x_shpae: torch.Size([32, 29, 29])
+x_shpae: torch.Size([32, 27, 27])
+x_shpae: torch.Size([32, 27, 27])
+x_shpae: torch.Size([32, 25, 25])
+x_shpae: torch.Size([32, 25, 25])
+x_shpae: torch.Size([32, 23, 23])
+x_shpae: torch.Size([32, 23, 23])
+x_shpae: torch.Size([32, 21, 21])
+x_shpae: torch.Size([9, 42, 42])
+x_shpae: torch.Size([32, 20, 20])
+x_shpae: torch.Size([32, 20, 20])
+x_shpae: torch.Size([32, 18, 18])
+x_shpae: torch.Size([32, 18, 18])
+x_shpae: torch.Size([32, 16, 16])
+x_shpae: torch.Size([32, 16, 16])
+x_shpae: torch.Size([32, 14, 14])
+x_shpae: torch.Size([32, 14, 14])
+x_shpae: torch.Size([32, 12, 12])
+x_shpae: torch.Size([32, 12, 12])
+x_shpae: torch.Size([32, 10, 10])
+x_shpae: torch.Size([32, 10, 10])
+x_shpae: torch.Size([32, 8, 8])
+x_shpae: torch.Size([32, 8, 8])
+x_shpae: torch.Size([32, 6, 6])
+x_shpae: torch.Size([32, 6, 6])
+x_shpae: torch.Size([32, 4, 4])
+x_shpae: torch.Size([32, 4, 4])
+x_shpae: torch.Size([32, 2, 2])
+x_shpae: torch.Size([14112])
+shape of feature_map_head_true: torch.Size([32, 21, 21])
+shape of feature_map_shared_cnn_for_aux: torch.Size([32, 2, 2])
+params of encoder_for_aux: <generator object Module.parameters at 0x7fe126295e40>
+params of decoder_head: <generator object Module.parameters at 0x7fe126295e40>
+Evaluating: logs/reacher_easy/svea/0
+Traceback (most recent call last):
+  File "/aiarena/nas/18_data/jiangy/RPSF/cnn/src/train.py", line 173, in <module>
+    main(args)
+  File "/aiarena/nas/18_data/jiangy/RPSF/cnn/src/train.py", line 129, in main
+    evaluate(test_env_video_easy, agent, video, args.eval_episodes, L, step, test_video_easy=True)
+  File "/aiarena/nas/18_data/jiangy/RPSF/cnn/src/train.py", line 18, in evaluate
+    obs = env.reset()
+  File "/aiarena/nas/18_data/jiangy/RPSF/cnn/src/env/wrappers.py", line 87, in reset
+    return self.env.reset()
+  File "/aiarena/nas/18_data/jiangy/RPSF/cnn/src/env/wrappers.py", line 171, in reset
+    obs = self.env.reset()
+  File "/aiarena/nas/18_data/jiangy/RPSF/cnn/src/env/wrappers.py", line 284, in reset
+    self._reset_video()
+  File "/aiarena/nas/18_data/jiangy/RPSF/cnn/src/env/wrappers.py", line 280, in _reset_video
+    self._data = self._load_video(self._video_paths[self._index])
+  File "/aiarena/nas/18_data/jiangy/RPSF/cnn/src/env/wrappers.py", line 265, in _load_video
+    assert cap.get(cv2.CAP_PROP_FRAME_WIDTH) >= 100, 'width must be at least 100 pixels'
+AssertionError: width must be at least 100 pixels

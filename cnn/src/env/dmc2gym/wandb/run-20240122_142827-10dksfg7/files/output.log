@@ -1,0 +1,52 @@
+aux: True
+head_true: False
+/aiarena/nas/18_data/jiangy/RPSF/cnn/src/env/dm_control/dm_control/utils/containers.py:30: DeprecationWarning: Using or importing the ABCs from 'collections' instead of from 'collections.abc' is deprecated since Python 3.3, and in 3.9 it will stop working
+  class TaggedTasks(collections.Mapping):
+/aiarena/nas/18_data/jiangy/RPSF/cnn/src/env/dm_control/dm_control/mujoco/engine.py:897: DeprecationWarning: `np.bool` is a deprecated alias for the builtin `bool`. To silence this warning, use `bool` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.bool_` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  is_limited = physics.model.actuator_ctrllimited.ravel().astype(np.bool)
+/aiarena/nas/18_data/jiangy/RPSF/cnn/src/env/dm_control/dm_control/mujoco/engine.py:899: DeprecationWarning: `np.float` is a deprecated alias for the builtin `float`. To silence this warning, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  minima = np.full(num_actions, fill_value=-np.inf, dtype=np.float)
+/aiarena/nas/18_data/jiangy/RPSF/cnn/src/env/dm_control/dm_control/mujoco/engine.py:900: DeprecationWarning: `np.float` is a deprecated alias for the builtin `float`. To silence this warning, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  maxima = np.full(num_actions, fill_value=np.inf, dtype=np.float)
+/aiarena/nas/18_data/jiangy/RPSF/cnn/src/env/dm_control/dm_control/mujoco/engine.py:904: DeprecationWarning: `np.float` is a deprecated alias for the builtin `float`. To silence this warning, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  shape=(num_actions,), dtype=np.float, minimum=minima, maximum=maxima)
+/aiarena/nas/18_data/jiangy/RPSF/cnn/src/env/dmc2gym/dmc2gym/wrappers.py:10: DeprecationWarning: `np.int` is a deprecated alias for the builtin `int`. To silence this warning, use `int` by itself. Doing this will not modify any behavior and is safe. When replacing `np.int`, you may wish to use e.g. `np.int64` or `np.int32` to specify the precision. If you wish to review your current use, check the release note link for additional information.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  dim = np.int(np.prod(s.shape))
+/aiarena/nas/18_data/jiangy/RPSF/cnn/src/env/dm_control/dm_control/mujoco/engine.py:897: DeprecationWarning: `np.bool` is a deprecated alias for the builtin `bool`. To silence this warning, use `bool` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.bool_` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  is_limited = physics.model.actuator_ctrllimited.ravel().astype(np.bool)
+/aiarena/nas/18_data/jiangy/RPSF/cnn/src/env/dm_control/dm_control/mujoco/engine.py:899: DeprecationWarning: `np.float` is a deprecated alias for the builtin `float`. To silence this warning, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  minima = np.full(num_actions, fill_value=-np.inf, dtype=np.float)
+/aiarena/nas/18_data/jiangy/RPSF/cnn/src/env/dm_control/dm_control/mujoco/engine.py:900: DeprecationWarning: `np.float` is a deprecated alias for the builtin `float`. To silence this warning, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  maxima = np.full(num_actions, fill_value=np.inf, dtype=np.float)
+/aiarena/nas/18_data/jiangy/RPSF/cnn/src/env/dm_control/dm_control/mujoco/engine.py:904: DeprecationWarning: `np.float` is a deprecated alias for the builtin `float`. To silence this warning, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  shape=(num_actions,), dtype=np.float, minimum=minima, maximum=maxima)
+/aiarena/nas/18_data/jiangy/RPSF/cnn/src/env/dmc2gym/dmc2gym/wrappers.py:10: DeprecationWarning: `np.int` is a deprecated alias for the builtin `int`. To silence this warning, use `int` by itself. Doing this will not modify any behavior and is safe. When replacing `np.int`, you may wish to use e.g. `np.int64` or `np.int32` to specify the precision. If you wish to review your current use, check the release note link for additional information.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  dim = np.int(np.prod(s.shape))
+Traceback (most recent call last):
+  File "/aiarena/nas/18_data/jiangy/RPSF/cnn/src/train.py", line 173, in <module>
+    main(args)
+  File "/aiarena/nas/18_data/jiangy/RPSF/cnn/src/train.py", line 60, in main
+    test_env_color_hard = make_env(
+  File "/aiarena/nas/18_data/jiangy/RPSF/cnn/src/env/wrappers.py", line 54, in make_env
+    env = ColorWrapper(env, mode, seed)
+  File "/aiarena/nas/18_data/jiangy/RPSF/cnn/src/env/wrappers.py", line 69, in __init__
+    self._load_colors()
+  File "/aiarena/nas/18_data/jiangy/RPSF/cnn/src/env/wrappers.py", line 99, in _load_colors
+    self._colors = torch.load(f'src/env/data/{self._mode}.pt')
+  File "/home/wangmr/.conda/lib/python3.8/site-packages/torch/serialization.py", line 771, in load
+    with _open_file_like(f, 'rb') as opened_file:
+  File "/home/wangmr/.conda/lib/python3.8/site-packages/torch/serialization.py", line 270, in _open_file_like
+    return _open_file(name_or_buffer, mode)
+  File "/home/wangmr/.conda/lib/python3.8/site-packages/torch/serialization.py", line 251, in __init__
+    super(_open_file, self).__init__(open(name, mode))
+FileNotFoundError: [Errno 2] No such file or directory: 'src/env/data/color_hard.pt'

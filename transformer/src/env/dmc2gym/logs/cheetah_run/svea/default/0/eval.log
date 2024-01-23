@@ -1,0 +1,4 @@
+{"episode": 0.0, "episode_reward": 0.11381772628566818, "episode_reward_test_env_color_hard": 0.12250404678208397, "episode_reward_test_env_video_easy": 0.19134037519282918, "step": 0}
+{"episode": 40.0, "episode_reward": 0.4138413561454645, "episode_reward_test_env_color_hard": 0.37937013434909844, "episode_reward_test_env_video_easy": 0.3793208421297044, "step": 10000}
+{"episode": 80.0, "episode_reward": 0.5861466590543242, "episode_reward_test_env_color_hard": 0.5931074365559007, "episode_reward_test_env_video_easy": 0.5931092924559958, "step": 20000}
+{"episode": 120.0, "episode_reward": 0.5567490351292691, "episode_reward_test_env_color_hard": 0.5522678031526487, "episode_reward_test_env_video_easy": 0.5522692867708472, "step": 30000}

@@ -1,0 +1,1 @@
+{"eval_episode_reward_average": 85.43333333333334, "eval_episode_reward_average_test_env_color_hard": 131.53333333333333, "eval_episode_reward_average_test_env_video_easy": 85.43333333333334, "train_episode_reward": 34.0, "_runtime": 1216, "_timestamp": 1705937768, "_step": 1000, "critic_loss": 2.3855783939361572, "_wandb": {"runtime": 1211}}

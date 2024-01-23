@@ -1,0 +1,207 @@
+aux: True
+aux_batch_size: 512
+Working directory: logs/cheetah_run/svea/default/0
+Observations: (9, 96, 96)
+Cropped observations: (9, 96, 96)
+/aiarena/nas/18_data/jiangy/RPSF/transformer/src/env/dm_control/dm_control/utils/containers.py:30: DeprecationWarning: Using or importing the ABCs from 'collections' instead of from 'collections.abc' is deprecated since Python 3.3, and in 3.9 it will stop working
+  class TaggedTasks(collections.Mapping):
+/aiarena/nas/18_data/jiangy/RPSF/transformer/src/env/dm_control/dm_control/mujoco/engine.py:897: DeprecationWarning: `np.bool` is a deprecated alias for the builtin `bool`. To silence this warning, use `bool` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.bool_` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  is_limited = physics.model.actuator_ctrllimited.ravel().astype(np.bool)
+/aiarena/nas/18_data/jiangy/RPSF/transformer/src/env/dm_control/dm_control/mujoco/engine.py:899: DeprecationWarning: `np.float` is a deprecated alias for the builtin `float`. To silence this warning, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  minima = np.full(num_actions, fill_value=-np.inf, dtype=np.float)
+/aiarena/nas/18_data/jiangy/RPSF/transformer/src/env/dm_control/dm_control/mujoco/engine.py:900: DeprecationWarning: `np.float` is a deprecated alias for the builtin `float`. To silence this warning, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  maxima = np.full(num_actions, fill_value=np.inf, dtype=np.float)
+/aiarena/nas/18_data/jiangy/RPSF/transformer/src/env/dm_control/dm_control/mujoco/engine.py:904: DeprecationWarning: `np.float` is a deprecated alias for the builtin `float`. To silence this warning, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  shape=(num_actions,), dtype=np.float, minimum=minima, maximum=maxima)
+/aiarena/nas/18_data/jiangy/RPSF/transformer/src/env/dmc2gym/dmc2gym/wrappers.py:10: DeprecationWarning: `np.int` is a deprecated alias for the builtin `int`. To silence this warning, use `int` by itself. Doing this will not modify any behavior and is safe. When replacing `np.int`, you may wish to use e.g. `np.int64` or `np.int32` to specify the precision. If you wish to review your current use, check the release note link for additional information.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  dim = np.int(np.prod(s.shape))
+/aiarena/nas/18_data/jiangy/RPSF/transformer/src/env/dm_control/dm_control/mujoco/engine.py:897: DeprecationWarning: `np.bool` is a deprecated alias for the builtin `bool`. To silence this warning, use `bool` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.bool_` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  is_limited = physics.model.actuator_ctrllimited.ravel().astype(np.bool)
+/aiarena/nas/18_data/jiangy/RPSF/transformer/src/env/dm_control/dm_control/mujoco/engine.py:899: DeprecationWarning: `np.float` is a deprecated alias for the builtin `float`. To silence this warning, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  minima = np.full(num_actions, fill_value=-np.inf, dtype=np.float)
+/aiarena/nas/18_data/jiangy/RPSF/transformer/src/env/dm_control/dm_control/mujoco/engine.py:900: DeprecationWarning: `np.float` is a deprecated alias for the builtin `float`. To silence this warning, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  maxima = np.full(num_actions, fill_value=np.inf, dtype=np.float)
+/aiarena/nas/18_data/jiangy/RPSF/transformer/src/env/dm_control/dm_control/mujoco/engine.py:904: DeprecationWarning: `np.float` is a deprecated alias for the builtin `float`. To silence this warning, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  shape=(num_actions,), dtype=np.float, minimum=minima, maximum=maxima)
+/aiarena/nas/18_data/jiangy/RPSF/transformer/src/env/dmc2gym/dmc2gym/wrappers.py:10: DeprecationWarning: `np.int` is a deprecated alias for the builtin `int`. To silence this warning, use `int` by itself. Doing this will not modify any behavior and is safe. When replacing `np.int`, you may wish to use e.g. `np.int64` or `np.int32` to specify the precision. If you wish to review your current use, check the release note link for additional information.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  dim = np.int(np.prod(s.shape))
+/aiarena/nas/18_data/jiangy/RPSF/transformer/src/env/dm_control/dm_control/mujoco/engine.py:897: DeprecationWarning: `np.bool` is a deprecated alias for the builtin `bool`. To silence this warning, use `bool` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.bool_` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  is_limited = physics.model.actuator_ctrllimited.ravel().astype(np.bool)
+/aiarena/nas/18_data/jiangy/RPSF/transformer/src/env/dm_control/dm_control/mujoco/engine.py:899: DeprecationWarning: `np.float` is a deprecated alias for the builtin `float`. To silence this warning, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  minima = np.full(num_actions, fill_value=-np.inf, dtype=np.float)
+/aiarena/nas/18_data/jiangy/RPSF/transformer/src/env/dm_control/dm_control/mujoco/engine.py:900: DeprecationWarning: `np.float` is a deprecated alias for the builtin `float`. To silence this warning, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  maxima = np.full(num_actions, fill_value=np.inf, dtype=np.float)
+/aiarena/nas/18_data/jiangy/RPSF/transformer/src/env/dm_control/dm_control/mujoco/engine.py:904: DeprecationWarning: `np.float` is a deprecated alias for the builtin `float`. To silence this warning, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  shape=(num_actions,), dtype=np.float, minimum=minima, maximum=maxima)
+/aiarena/nas/18_data/jiangy/RPSF/transformer/src/env/dmc2gym/dmc2gym/wrappers.py:10: DeprecationWarning: `np.int` is a deprecated alias for the builtin `int`. To silence this warning, use `int` by itself. Doing this will not modify any behavior and is safe. When replacing `np.int`, you may wish to use e.g. `np.int64` or `np.int32` to specify the precision. If you wish to review your current use, check the release note link for additional information.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  dim = np.int(np.prod(s.shape))
+Num patches: 144
+Shared: 489,600
+Head: 0
+Projection: 13,100
+Critic: 2x 1,160,193
+Evaluating: logs/cheetah_run/svea/default/0
+| [32meval[39m | S: 0 | ER: 0.1138 | ERTEST: 0.0000
+| [33mtrain[39m | E: 1 | S: 250 | D: 500.5 s | R: 0.0000 | AL: 0.0000 | CL: 0.0000 | AUXL: 0.0000
+| [33mtrain[39m | E: 2 | S: 500 | D: 2.3 s | R: 10.6188 | AL: 0.0000 | CL: 0.0000 | AUXL: 0.0000
+| [33mtrain[39m | E: 3 | S: 750 | D: 2.4 s | R: 9.5966 | AL: 0.0000 | CL: 0.0000 | AUXL: 0.0000
+| [33mtrain[39m | E: 4 | S: 1000 | D: 2.3 s | R: 9.6948 | AL: 0.0000 | CL: 0.0000 | AUXL: 0.0000
+| [33mtrain[39m | E: 5 | S: 1250 | D: 1130.8 s | R: 12.4501 | AL: -3.1847 | CL: 0.0344 | AUXL: 0.0000
+| [33mtrain[39m | E: 6 | S: 1500 | D: 223.8 s | R: 11.0907 | AL: -5.2773 | CL: 0.0153 | AUXL: 0.0000
+| [33mtrain[39m | E: 7 | S: 1750 | D: 224.4 s | R: 21.1433 | AL: -5.7067 | CL: 0.0179 | AUXL: 0.0000
+| [33mtrain[39m | E: 8 | S: 2000 | D: 224.3 s | R: 10.8786 | AL: -6.1198 | CL: 0.0174 | AUXL: 0.0000
+| [33mtrain[39m | E: 9 | S: 2250 | D: 224.6 s | R: 9.3636 | AL: -6.5242 | CL: 0.0177 | AUXL: 0.0000
+| [33mtrain[39m | E: 10 | S: 2500 | D: 224.3 s | R: 8.2206 | AL: -6.9135 | CL: 0.0182 | AUXL: 0.0000
+| [33mtrain[39m | E: 11 | S: 2750 | D: 224.2 s | R: 11.2105 | AL: -7.2833 | CL: 0.0181 | AUXL: 0.0000
+| [33mtrain[39m | E: 12 | S: 3000 | D: 223.9 s | R: 7.1685 | AL: -7.6486 | CL: 0.0176 | AUXL: 0.0000
+| [33mtrain[39m | E: 13 | S: 3250 | D: 225.2 s | R: 9.6395 | AL: -8.0030 | CL: 0.0171 | AUXL: 0.0000
+| [33mtrain[39m | E: 14 | S: 3500 | D: 226.8 s | R: 9.3705 | AL: -8.3496 | CL: 0.0202 | AUXL: 0.0000
+| [33mtrain[39m | E: 15 | S: 3750 | D: 227.0 s | R: 27.1585 | AL: -8.6953 | CL: 0.0197 | AUXL: 0.0000
+| [33mtrain[39m | E: 16 | S: 4000 | D: 226.4 s | R: 17.9327 | AL: -9.0275 | CL: 0.0222 | AUXL: 0.0000
+| [33mtrain[39m | E: 17 | S: 4250 | D: 226.8 s | R: 24.3101 | AL: -9.3599 | CL: 0.0226 | AUXL: 0.0000
+| [33mtrain[39m | E: 18 | S: 4500 | D: 225.1 s | R: 13.4384 | AL: -9.6887 | CL: 0.0233 | AUXL: 0.0000
+| [33mtrain[39m | E: 19 | S: 4750 | D: 225.0 s | R: 14.8844 | AL: -10.0066 | CL: 0.0216 | AUXL: 0.0000
+| [33mtrain[39m | E: 20 | S: 5000 | D: 226.0 s | R: 8.6318 | AL: -10.3242 | CL: 0.0215 | AUXL: 0.0000
+| [33mtrain[39m | E: 21 | S: 5250 | D: 225.4 s | R: 9.9385 | AL: -10.6175 | CL: 0.0215 | AUXL: 0.0000
+| [33mtrain[39m | E: 22 | S: 5500 | D: 226.4 s | R: 5.7085 | AL: -10.9020 | CL: 0.0221 | AUXL: 0.0000
+| [33mtrain[39m | E: 23 | S: 5750 | D: 225.1 s | R: 15.0852 | AL: -11.1895 | CL: 0.0217 | AUXL: 0.0000
+| [33mtrain[39m | E: 24 | S: 6000 | D: 224.8 s | R: 9.4108 | AL: -11.4616 | CL: 0.0213 | AUXL: 0.0000
+| [33mtrain[39m | E: 25 | S: 6250 | D: 225.4 s | R: 20.6476 | AL: -11.7384 | CL: 0.0224 | AUXL: 0.0000
+| [33mtrain[39m | E: 26 | S: 6500 | D: 225.2 s | R: 17.8920 | AL: -12.0013 | CL: 0.0214 | AUXL: 0.0000
+| [33mtrain[39m | E: 27 | S: 6750 | D: 225.0 s | R: 11.4971 | AL: -12.2567 | CL: 0.0235 | AUXL: 0.0000
+| [33mtrain[39m | E: 28 | S: 7000 | D: 225.2 s | R: 18.4803 | AL: -12.5079 | CL: 0.0213 | AUXL: 0.0000
+| [33mtrain[39m | E: 29 | S: 7250 | D: 227.5 s | R: 7.8888 | AL: -12.7418 | CL: 0.0231 | AUXL: 0.0000
+| [33mtrain[39m | E: 30 | S: 7500 | D: 227.0 s | R: 17.7650 | AL: -12.9767 | CL: 0.0222 | AUXL: 0.0000
+| [33mtrain[39m | E: 31 | S: 7750 | D: 226.5 s | R: 22.0180 | AL: -13.2161 | CL: 0.0231 | AUXL: 0.0000
+| [33mtrain[39m | E: 32 | S: 8000 | D: 227.1 s | R: 9.3921 | AL: -13.4364 | CL: 0.0233 | AUXL: 0.0000
+| [33mtrain[39m | E: 33 | S: 8250 | D: 226.4 s | R: 18.7953 | AL: -13.6607 | CL: 0.0234 | AUXL: 0.0000
+| [33mtrain[39m | E: 34 | S: 8500 | D: 225.7 s | R: 28.8165 | AL: -13.8791 | CL: 0.0253 | AUXL: 0.0000
+| [33mtrain[39m | E: 35 | S: 8750 | D: 225.5 s | R: 16.2067 | AL: -14.0834 | CL: 0.0246 | AUXL: 0.0000
+| [33mtrain[39m | E: 36 | S: 9000 | D: 226.2 s | R: 15.6650 | AL: -14.2895 | CL: 0.0244 | AUXL: 0.0000
+| [33mtrain[39m | E: 37 | S: 9250 | D: 225.4 s | R: 5.5607 | AL: -14.4839 | CL: 0.0230 | AUXL: 0.0000
+| [33mtrain[39m | E: 38 | S: 9500 | D: 225.4 s | R: 16.2036 | AL: -14.6713 | CL: 0.0249 | AUXL: 0.0000
+| [33mtrain[39m | E: 39 | S: 9750 | D: 226.3 s | R: 11.2378 | AL: -14.8557 | CL: 0.0246 | AUXL: 0.0000
+| [33mtrain[39m | E: 40 | S: 10000 | D: 226.1 s | R: 15.9538 | AL: -15.0338 | CL: 0.0262 | AUXL: 0.0000
+Evaluating: logs/cheetah_run/svea/default/0
+| [32meval[39m | S: 10000 | ER: 0.4138 | ERTEST: 0.0000
+| [33mtrain[39m | E: 41 | S: 10250 | D: 607.8 s | R: 12.1151 | AL: -15.2089 | CL: 0.0253 | AUXL: 0.0000
+| [33mtrain[39m | E: 42 | S: 10500 | D: 222.1 s | R: 13.8839 | AL: -15.3751 | CL: 0.0232 | AUXL: 0.0000
+| [33mtrain[39m | E: 43 | S: 10750 | D: 223.2 s | R: 10.0672 | AL: -15.5348 | CL: 0.0235 | AUXL: 0.0000
+| [33mtrain[39m | E: 44 | S: 11000 | D: 223.1 s | R: 12.9238 | AL: -15.6897 | CL: 0.0245 | AUXL: 0.0000
+| [33mtrain[39m | E: 45 | S: 11250 | D: 222.8 s | R: 12.1489 | AL: -15.8452 | CL: 0.0231 | AUXL: 0.0000
+| [33mtrain[39m | E: 46 | S: 11500 | D: 222.7 s | R: 12.6242 | AL: -15.9904 | CL: 0.0227 | AUXL: 0.0000
+| [33mtrain[39m | E: 47 | S: 11750 | D: 221.7 s | R: 8.8304 | AL: -16.1315 | CL: 0.0247 | AUXL: 0.0000
+| [33mtrain[39m | E: 48 | S: 12000 | D: 221.8 s | R: 6.5353 | AL: -16.2672 | CL: 0.0240 | AUXL: 0.0000
+| [33mtrain[39m | E: 49 | S: 12250 | D: 221.2 s | R: 11.6274 | AL: -16.3946 | CL: 0.0224 | AUXL: 0.0000
+| [33mtrain[39m | E: 50 | S: 12500 | D: 221.6 s | R: 14.8604 | AL: -16.5243 | CL: 0.0241 | AUXL: 0.0000
+| [33mtrain[39m | E: 51 | S: 12750 | D: 221.2 s | R: 15.5833 | AL: -16.6495 | CL: 0.0231 | AUXL: 0.0000
+| [33mtrain[39m | E: 52 | S: 13000 | D: 221.6 s | R: 20.4377 | AL: -16.7695 | CL: 0.0242 | AUXL: 0.0000
+| [33mtrain[39m | E: 53 | S: 13250 | D: 222.3 s | R: 17.4410 | AL: -16.8874 | CL: 0.0250 | AUXL: 0.0000
+| [33mtrain[39m | E: 54 | S: 13500 | D: 222.3 s | R: 14.2005 | AL: -16.9966 | CL: 0.0234 | AUXL: 0.0000
+| [33mtrain[39m | E: 55 | S: 13750 | D: 221.4 s | R: 16.0978 | AL: -17.1006 | CL: 0.0231 | AUXL: 0.0000
+| [33mtrain[39m | E: 56 | S: 14000 | D: 222.1 s | R: 17.4342 | AL: -17.2035 | CL: 0.0244 | AUXL: 0.0000
+| [33mtrain[39m | E: 57 | S: 14250 | D: 221.7 s | R: 7.5833 | AL: -17.2954 | CL: 0.0231 | AUXL: 0.0000
+| [33mtrain[39m | E: 58 | S: 14500 | D: 223.2 s | R: 10.1749 | AL: -17.3874 | CL: 0.0239 | AUXL: 0.0000
+| [33mtrain[39m | E: 59 | S: 14750 | D: 223.5 s | R: 11.7576 | AL: -17.4746 | CL: 0.0249 | AUXL: 0.0000
+| [33mtrain[39m | E: 60 | S: 15000 | D: 225.0 s | R: 7.0977 | AL: -17.5494 | CL: 0.0236 | AUXL: 0.0000
+| [33mtrain[39m | E: 61 | S: 15250 | D: 225.9 s | R: 8.8517 | AL: -17.6289 | CL: 0.0238 | AUXL: 0.0000
+| [33mtrain[39m | E: 62 | S: 15500 | D: 227.0 s | R: 7.7844 | AL: -17.7115 | CL: 0.0237 | AUXL: 0.0000
+| [33mtrain[39m | E: 63 | S: 15750 | D: 227.1 s | R: 14.5348 | AL: -17.7872 | CL: 0.0227 | AUXL: 0.0000
+| [33mtrain[39m | E: 64 | S: 16000 | D: 223.5 s | R: 7.3098 | AL: -17.8585 | CL: 0.0239 | AUXL: 0.0000
+| [33mtrain[39m | E: 65 | S: 16250 | D: 223.7 s | R: 22.1714 | AL: -17.9267 | CL: 0.0224 | AUXL: 0.0000
+| [33mtrain[39m | E: 66 | S: 16500 | D: 222.0 s | R: 10.7599 | AL: -17.9811 | CL: 0.0234 | AUXL: 0.0000
+| [33mtrain[39m | E: 67 | S: 16750 | D: 222.2 s | R: 11.7123 | AL: -18.0250 | CL: 0.0248 | AUXL: 0.0000
+| [33mtrain[39m | E: 68 | S: 17000 | D: 221.1 s | R: 6.3886 | AL: -18.0895 | CL: 0.0213 | AUXL: 0.0000
+| [33mtrain[39m | E: 69 | S: 17250 | D: 221.9 s | R: 14.3518 | AL: -18.1364 | CL: 0.0231 | AUXL: 0.0000
+| [33mtrain[39m | E: 70 | S: 17500 | D: 222.5 s | R: 7.3362 | AL: -18.1950 | CL: 0.0235 | AUXL: 0.0000
+| [33mtrain[39m | E: 71 | S: 17750 | D: 222.5 s | R: 30.2215 | AL: -18.2443 | CL: 0.0273 | AUXL: 0.0000
+| [33mtrain[39m | E: 72 | S: 18000 | D: 221.7 s | R: 18.6920 | AL: -18.2918 | CL: 0.0220 | AUXL: 0.0000
+| [33mtrain[39m | E: 73 | S: 18250 | D: 222.3 s | R: 15.6471 | AL: -18.3316 | CL: 0.0231 | AUXL: 0.0000
+| [33mtrain[39m | E: 74 | S: 18500 | D: 223.2 s | R: 21.7524 | AL: -18.3764 | CL: 0.0218 | AUXL: 0.0000
+| [33mtrain[39m | E: 75 | S: 18750 | D: 238.4 s | R: 21.1939 | AL: -18.4149 | CL: 0.0236 | AUXL: 0.0000
+| [33mtrain[39m | E: 76 | S: 19000 | D: 223.8 s | R: 19.6249 | AL: -18.4425 | CL: 0.0233 | AUXL: 0.0000
+| [33mtrain[39m | E: 77 | S: 19250 | D: 224.5 s | R: 19.2022 | AL: -18.4827 | CL: 0.0246 | AUXL: 0.0000
+| [33mtrain[39m | E: 78 | S: 19500 | D: 223.1 s | R: 8.2099 | AL: -18.5149 | CL: 0.0243 | AUXL: 0.0000
+| [33mtrain[39m | E: 79 | S: 19750 | D: 222.3 s | R: 15.8913 | AL: -18.5430 | CL: 0.0246 | AUXL: 0.0000
+| [33mtrain[39m | E: 80 | S: 20000 | D: 222.6 s | R: 12.2662 | AL: -18.5683 | CL: 0.0235 | AUXL: 0.0000
+Evaluating: logs/cheetah_run/svea/default/0
+| [32meval[39m | S: 20000 | ER: 0.5861 | ERTEST: 0.0000
+| [33mtrain[39m | E: 81 | S: 20250 | D: 611.7 s | R: 16.6885 | AL: -18.5943 | CL: 0.0229 | AUXL: 0.0000
+| [33mtrain[39m | E: 82 | S: 20500 | D: 222.0 s | R: 9.4817 | AL: -18.6130 | CL: 0.0223 | AUXL: 0.0000
+| [33mtrain[39m | E: 83 | S: 20750 | D: 222.0 s | R: 4.5308 | AL: -18.6282 | CL: 0.0231 | AUXL: 0.0000
+| [33mtrain[39m | E: 84 | S: 21000 | D: 222.1 s | R: 7.2548 | AL: -18.6469 | CL: 0.0233 | AUXL: 0.0000
+| [33mtrain[39m | E: 85 | S: 21250 | D: 222.9 s | R: 26.5461 | AL: -18.6622 | CL: 0.0230 | AUXL: 0.0000
+| [33mtrain[39m | E: 86 | S: 21500 | D: 222.4 s | R: 15.0832 | AL: -18.6698 | CL: 0.0240 | AUXL: 0.0000
+| [33mtrain[39m | E: 87 | S: 21750 | D: 222.6 s | R: 25.7862 | AL: -18.6820 | CL: 0.0256 | AUXL: 0.0000
+| [33mtrain[39m | E: 88 | S: 22000 | D: 223.5 s | R: 5.8942 | AL: -18.6914 | CL: 0.0225 | AUXL: 0.0000
+| [33mtrain[39m | E: 89 | S: 22250 | D: 223.7 s | R: 8.3056 | AL: -18.6960 | CL: 0.0225 | AUXL: 0.0000
+| [33mtrain[39m | E: 90 | S: 22500 | D: 223.9 s | R: 10.1665 | AL: -18.7000 | CL: 0.0227 | AUXL: 0.0000
+| [33mtrain[39m | E: 91 | S: 22750 | D: 223.7 s | R: 17.8139 | AL: -18.6956 | CL: 0.0255 | AUXL: 0.0000
+| [33mtrain[39m | E: 92 | S: 23000 | D: 222.8 s | R: 8.6438 | AL: -18.7008 | CL: 0.0226 | AUXL: 0.0000
+| [33mtrain[39m | E: 93 | S: 23250 | D: 222.7 s | R: 20.6329 | AL: -18.7003 | CL: 0.0226 | AUXL: 0.0000
+| [33mtrain[39m | E: 94 | S: 23500 | D: 222.4 s | R: 6.0258 | AL: -18.6947 | CL: 0.0234 | AUXL: 0.0000
+| [33mtrain[39m | E: 95 | S: 23750 | D: 222.5 s | R: 7.8375 | AL: -18.6824 | CL: 0.0227 | AUXL: 0.0000
+| [33mtrain[39m | E: 96 | S: 24000 | D: 222.1 s | R: 7.4008 | AL: -18.6787 | CL: 0.0235 | AUXL: 0.0000
+| [33mtrain[39m | E: 97 | S: 24250 | D: 222.7 s | R: 12.8976 | AL: -18.6707 | CL: 0.0233 | AUXL: 0.0000
+| [33mtrain[39m | E: 98 | S: 24500 | D: 223.0 s | R: 7.9528 | AL: -18.6545 | CL: 0.0228 | AUXL: 0.0000
+| [33mtrain[39m | E: 99 | S: 24750 | D: 222.5 s | R: 10.1820 | AL: -18.6433 | CL: 0.0222 | AUXL: 0.0000
+| [33mtrain[39m | E: 100 | S: 25000 | D: 222.0 s | R: 11.0039 | AL: -18.6217 | CL: 0.0237 | AUXL: 0.0000
+| [33mtrain[39m | E: 101 | S: 25250 | D: 222.5 s | R: 10.9052 | AL: -18.6061 | CL: 0.0218 | AUXL: 0.0000
+| [33mtrain[39m | E: 102 | S: 25500 | D: 222.3 s | R: 8.2231 | AL: -18.5881 | CL: 0.0242 | AUXL: 0.0000
+| [33mtrain[39m | E: 103 | S: 25750 | D: 223.2 s | R: 17.0178 | AL: -18.5691 | CL: 0.0221 | AUXL: 0.0000
+| [33mtrain[39m | E: 104 | S: 26000 | D: 224.4 s | R: 23.5399 | AL: -18.5447 | CL: 0.0236 | AUXL: 0.0000
+| [33mtrain[39m | E: 105 | S: 26250 | D: 224.2 s | R: 12.2928 | AL: -18.5203 | CL: 0.0224 | AUXL: 0.0000
+| [33mtrain[39m | E: 106 | S: 26500 | D: 224.0 s | R: 11.7107 | AL: -18.4989 | CL: 0.0226 | AUXL: 0.0000
+| [33mtrain[39m | E: 107 | S: 26750 | D: 223.9 s | R: 22.9041 | AL: -18.4765 | CL: 0.0229 | AUXL: 0.0000
+| [33mtrain[39m | E: 108 | S: 27000 | D: 223.0 s | R: 17.9343 | AL: -18.4472 | CL: 0.0238 | AUXL: 0.0000
+| [33mtrain[39m | E: 109 | S: 27250 | D: 223.0 s | R: 4.4730 | AL: -18.4218 | CL: 0.0223 | AUXL: 0.0000
+| [33mtrain[39m | E: 110 | S: 27500 | D: 222.3 s | R: 8.5931 | AL: -18.3901 | CL: 0.0222 | AUXL: 0.0000
+| [33mtrain[39m | E: 111 | S: 27750 | D: 223.1 s | R: 16.1441 | AL: -18.3653 | CL: 0.0216 | AUXL: 0.0000
+| [33mtrain[39m | E: 112 | S: 28000 | D: 223.0 s | R: 12.1828 | AL: -18.3342 | CL: 0.0231 | AUXL: 0.0000
+| [33mtrain[39m | E: 113 | S: 28250 | D: 223.6 s | R: 9.8161 | AL: -18.3019 | CL: 0.0214 | AUXL: 0.0000
+| [33mtrain[39m | E: 114 | S: 28500 | D: 222.9 s | R: 13.0551 | AL: -18.2668 | CL: 0.0241 | AUXL: 0.0000
+| [33mtrain[39m | E: 115 | S: 28750 | D: 223.9 s | R: 12.6283 | AL: -18.2350 | CL: 0.0214 | AUXL: 0.0000
+| [33mtrain[39m | E: 116 | S: 29000 | D: 223.3 s | R: 10.3447 | AL: -18.1993 | CL: 0.0229 | AUXL: 0.0000
+| [33mtrain[39m | E: 117 | S: 29250 | D: 223.2 s | R: 5.4745 | AL: -18.1629 | CL: 0.0212 | AUXL: 0.0000
+| [33mtrain[39m | E: 118 | S: 29500 | D: 222.8 s | R: 8.6754 | AL: -18.1200 | CL: 0.0232 | AUXL: 0.0000
+| [33mtrain[39m | E: 119 | S: 29750 | D: 225.6 s | R: 22.4015 | AL: -18.0845 | CL: 0.0226 | AUXL: 0.0000
+| [33mtrain[39m | E: 120 | S: 30000 | D: 224.6 s | R: 17.4476 | AL: -18.0433 | CL: 0.0214 | AUXL: 0.0000
+Evaluating: logs/cheetah_run/svea/default/0
+| [32meval[39m | S: 30000 | ER: 0.5567 | ERTEST: 0.0000
+| [33mtrain[39m | E: 121 | S: 30250 | D: 694.6 s | R: 10.5758 | AL: -18.0029 | CL: 0.0218 | AUXL: 0.0000
+| [33mtrain[39m | E: 122 | S: 30500 | D: 222.6 s | R: 17.5509 | AL: -17.9645 | CL: 0.0219 | AUXL: 0.0000
+| [33mtrain[39m | E: 123 | S: 30750 | D: 223.0 s | R: 27.4349 | AL: -17.9238 | CL: 0.0231 | AUXL: 0.0000
+| [33mtrain[39m | E: 124 | S: 31000 | D: 222.1 s | R: 8.4915 | AL: -17.8804 | CL: 0.0214 | AUXL: 0.0000
+| [33mtrain[39m | E: 125 | S: 31250 | D: 222.7 s | R: 14.9616 | AL: -17.8370 | CL: 0.0215 | AUXL: 0.0000
+| [33mtrain[39m | E: 126 | S: 31500 | D: 222.9 s | R: 17.9582 | AL: -17.7882 | CL: 0.0223 | AUXL: 0.0000
+| [33mtrain[39m | E: 127 | S: 31750 | D: 222.2 s | R: 10.1569 | AL: -17.7418 | CL: 0.0223 | AUXL: 0.0000
+| [33mtrain[39m | E: 128 | S: 32000 | D: 222.1 s | R: 8.8531 | AL: -17.6965 | CL: 0.0231 | AUXL: 0.0000
+| [33mtrain[39m | E: 129 | S: 32250 | D: 222.3 s | R: 13.2708 | AL: -17.6497 | CL: 0.0232 | AUXL: 0.0000
+| [33mtrain[39m | E: 130 | S: 32500 | D: 223.1 s | R: 12.1770 | AL: -17.5985 | CL: 0.0214 | AUXL: 0.0000
+| [33mtrain[39m | E: 131 | S: 32750 | D: 222.2 s | R: 6.6631 | AL: -17.5489 | CL: 0.0204 | AUXL: 0.0000
+| [33mtrain[39m | E: 132 | S: 33000 | D: 222.3 s | R: 7.3185 | AL: -17.5015 | CL: 0.0217 | AUXL: 0.0000
+| [33mtrain[39m | E: 133 | S: 33250 | D: 224.5 s | R: 11.4574 | AL: -17.4495 | CL: 0.0226 | AUXL: 0.0000
+| [33mtrain[39m | E: 134 | S: 33500 | D: 224.6 s | R: 16.3121 | AL: -17.3959 | CL: 0.0206 | AUXL: 0.0000
+| [33mtrain[39m | E: 135 | S: 33750 | D: 224.8 s | R: 17.6678 | AL: -17.3419 | CL: 0.0215 | AUXL: 0.0000
+| [33mtrain[39m | E: 136 | S: 34000 | D: 223.9 s | R: 15.9187 | AL: -17.2906 | CL: 0.0240 | AUXL: 0.0000
+| [33mtrain[39m | E: 137 | S: 34250 | D: 223.3 s | R: 5.6887 | AL: -17.2378 | CL: 0.0243 | AUXL: 0.0000
+| [33mtrain[39m | E: 138 | S: 34500 | D: 223.1 s | R: 11.8072 | AL: -17.1840 | CL: 0.0253 | AUXL: 0.0000
+| [33mtrain[39m | E: 139 | S: 34750 | D: 223.3 s | R: 21.1560 | AL: -17.1362 | CL: 0.0310 | AUXL: 0.0000
+| [33mtrain[39m | E: 140 | S: 35000 | D: 223.4 s | R: 17.0723 | AL: -17.0825 | CL: 0.0361 | AUXL: 0.0000
+| [33mtrain[39m | E: 141 | S: 35250 | D: 223.0 s | R: 24.9974 | AL: -17.0373 | CL: 0.0410 | AUXL: 0.0000
+| [33mtrain[39m | E: 142 | S: 35500 | D: 223.1 s | R: 14.3451 | AL: -16.9958 | CL: 0.0455 | AUXL: 0.0000

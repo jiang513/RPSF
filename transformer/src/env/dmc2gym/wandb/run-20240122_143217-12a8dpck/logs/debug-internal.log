@@ -1,0 +1,73 @@
+2024-01-22 14:32:21,733 INFO    MainThread:187 [internal.py:wandb_internal():88] W&B internal server running at pid: 187, started at: 2024-01-22 14:32:21.598584
+2024-01-22 14:32:21,737 DEBUG   HandlerThread:187 [handler.py:handle_request():130] handle_request: check_version
+2024-01-22 14:32:21,737 INFO    WriterThread:187 [datastore.py:open_for_write():77] open: /aiarena/nas/18_data/jiangy/RPSF/transformer/src/env/dmc2gym/wandb/run-20240122_143217-12a8dpck/run-12a8dpck.wandb
+2024-01-22 14:32:21,741 DEBUG   SenderThread:187 [sender.py:send():185] send: header
+2024-01-22 14:32:21,741 DEBUG   SenderThread:187 [sender.py:send_request():199] send_request: check_version
+2024-01-22 14:32:23,394 DEBUG   SenderThread:187 [sender.py:send():185] send: run
+2024-01-22 14:32:23,677 DEBUG   SenderThread:187 [git.py:repo():33] git repository is invalid
+2024-01-22 14:32:24,083 ERROR   SenderThread:187 [internal_api.py:execute():144] 403 response executing GraphQL.
+2024-01-22 14:32:24,084 ERROR   SenderThread:187 [internal_api.py:execute():145] {"errors":[{"message":"permission denied","path":["upsertBucket"],"extensions":{"code":"PERMISSION_ERROR"}}],"data":{"upsertBucket":null}}
+2024-01-22 14:32:24,395 INFO    HandlerThread:187 [handler.py:finish():731] shutting down handler
+2024-01-22 14:32:24,396 INFO    WriterThread:187 [datastore.py:close():281] close: /aiarena/nas/18_data/jiangy/RPSF/transformer/src/env/dmc2gym/wandb/run-20240122_143217-12a8dpck/run-12a8dpck.wandb
+2024-01-22 14:32:24,740 ERROR   MainThread:187 [internal.py:wandb_internal():159] Thread SenderThread:
+Traceback (most recent call last):
+  File "/home/wangmr/.conda/lib/python3.8/site-packages/wandb/sdk/lib/retry.py", line 102, in __call__
+    result = self._call_fn(*args, **kwargs)
+  File "/home/wangmr/.conda/lib/python3.8/site-packages/wandb/sdk/internal/internal_api.py", line 147, in execute
+    six.reraise(*sys.exc_info())
+  File "/home/wangmr/.conda/lib/python3.8/site-packages/six.py", line 703, in reraise
+    raise value
+  File "/home/wangmr/.conda/lib/python3.8/site-packages/wandb/sdk/internal/internal_api.py", line 141, in execute
+    return self.client.execute(*args, **kwargs)
+  File "/home/wangmr/.conda/lib/python3.8/site-packages/wandb/vendor/gql-0.2.0/gql/client.py", line 52, in execute
+    result = self._get_result(document, *args, **kwargs)
+  File "/home/wangmr/.conda/lib/python3.8/site-packages/wandb/vendor/gql-0.2.0/gql/client.py", line 60, in _get_result
+    return self.transport.execute(document, *args, **kwargs)
+  File "/home/wangmr/.conda/lib/python3.8/site-packages/wandb/vendor/gql-0.2.0/gql/transport/requests.py", line 39, in execute
+    request.raise_for_status()
+  File "/home/wangmr/.conda/lib/python3.8/site-packages/requests/models.py", line 941, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 403 Client Error: Forbidden for url: https://api.wandb.ai/graphql
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/wangmr/.conda/lib/python3.8/site-packages/wandb/apis/normalize.py", line 24, in wrapper
+    return func(*args, **kwargs)
+  File "/home/wangmr/.conda/lib/python3.8/site-packages/wandb/sdk/internal/internal_api.py", line 1270, in upsert_run
+    response = self.gql(mutation, variable_values=variable_values, **kwargs)
+  File "/home/wangmr/.conda/lib/python3.8/site-packages/wandb/sdk/lib/retry.py", line 118, in __call__
+    if not check_retry_fn(e):
+  File "/home/wangmr/.conda/lib/python3.8/site-packages/wandb/util.py", line 821, in no_retry_auth
+    raise CommError("Permission denied, ask the project owner to grant you access")
+wandb.errors.CommError: Permission denied, ask the project owner to grant you access
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/wangmr/.conda/lib/python3.8/site-packages/wandb/sdk/internal/internal_util.py", line 52, in run
+    self._run()
+  File "/home/wangmr/.conda/lib/python3.8/site-packages/wandb/sdk/internal/internal_util.py", line 102, in _run
+    self._process(record)
+  File "/home/wangmr/.conda/lib/python3.8/site-packages/wandb/sdk/internal/internal.py", line 292, in _process
+    self._sm.send(record)
+  File "/home/wangmr/.conda/lib/python3.8/site-packages/wandb/sdk/internal/sender.py", line 187, in send
+    send_handler(record)
+  File "/home/wangmr/.conda/lib/python3.8/site-packages/wandb/sdk/internal/sender.py", line 652, in send_run
+    self._init_run(run, config_value_dict)
+  File "/home/wangmr/.conda/lib/python3.8/site-packages/wandb/sdk/internal/sender.py", line 673, in _init_run
+    server_run, inserted = self._api.upsert_run(
+  File "/home/wangmr/.conda/lib/python3.8/site-packages/wandb/apis/normalize.py", line 62, in wrapper
+    six.reraise(CommError, CommError(message, err), sys.exc_info()[2])
+  File "/home/wangmr/.conda/lib/python3.8/site-packages/six.py", line 702, in reraise
+    raise value.with_traceback(tb)
+  File "/home/wangmr/.conda/lib/python3.8/site-packages/wandb/apis/normalize.py", line 24, in wrapper
+    return func(*args, **kwargs)
+  File "/home/wangmr/.conda/lib/python3.8/site-packages/wandb/sdk/internal/internal_api.py", line 1270, in upsert_run
+    response = self.gql(mutation, variable_values=variable_values, **kwargs)
+  File "/home/wangmr/.conda/lib/python3.8/site-packages/wandb/sdk/lib/retry.py", line 118, in __call__
+    if not check_retry_fn(e):
+  File "/home/wangmr/.conda/lib/python3.8/site-packages/wandb/util.py", line 821, in no_retry_auth
+    raise CommError("Permission denied, ask the project owner to grant you access")
+wandb.errors.CommError: Permission denied, ask the project owner to grant you access
+2024-01-22 14:32:26,764 INFO    MainThread:187 [internal.py:handle_exit():78] Internal process exited

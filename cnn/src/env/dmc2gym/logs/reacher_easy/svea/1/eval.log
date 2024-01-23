@@ -1,0 +1,9 @@
+{"episode": 0.0, "episode_reward": 35.0, "episode_reward_test_env_color_hard": 42.266666666666666, "episode_reward_test_env_video_easy": 35.0, "step": 0}
+{"episode": 40.0, "episode_reward": 143.1, "episode_reward_test_env_color_hard": 233.6, "episode_reward_test_env_video_easy": 298.1, "step": 10000}
+{"episode": 80.0, "episode_reward": 434.3666666666667, "episode_reward_test_env_color_hard": 268.43333333333334, "episode_reward_test_env_video_easy": 313.5, "step": 20000}
+{"episode": 120.0, "episode_reward": 500.93333333333334, "episode_reward_test_env_color_hard": 534.1, "episode_reward_test_env_video_easy": 620.7333333333333, "step": 30000}
+{"episode": 160.0, "episode_reward": 399.53333333333336, "episode_reward_test_env_color_hard": 510.8666666666667, "episode_reward_test_env_video_easy": 494.9, "step": 40000}
+{"episode": 200.0, "episode_reward": 473.2, "episode_reward_test_env_color_hard": 387.8666666666667, "episode_reward_test_env_video_easy": 355.43333333333334, "step": 50000}
+{"episode": 240.0, "episode_reward": 461.2, "episode_reward_test_env_color_hard": 533.7333333333333, "episode_reward_test_env_video_easy": 528.6666666666666, "step": 60000}
+{"episode": 280.0, "episode_reward": 667.5666666666667, "episode_reward_test_env_color_hard": 350.23333333333335, "episode_reward_test_env_video_easy": 391.8, "step": 70000}
+{"episode": 320.0, "episode_reward": 570.7333333333333, "episode_reward_test_env_color_hard": 462.7, "episode_reward_test_env_video_easy": 482.06666666666666, "step": 80000}

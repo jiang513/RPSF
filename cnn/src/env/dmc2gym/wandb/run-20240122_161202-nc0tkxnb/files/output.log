@@ -1,0 +1,504 @@
+/aiarena/nas/18_data/jiangy/RPSF/cnn/src/env/dm_control/dm_control/utils/containers.py:30: DeprecationWarning: Using or importing the ABCs from 'collections' instead of from 'collections.abc' is deprecated since Python 3.3, and in 3.9 it will stop working
+  class TaggedTasks(collections.Mapping):
+/aiarena/nas/18_data/jiangy/RPSF/cnn/src/env/dm_control/dm_control/mujoco/engine.py:897: DeprecationWarning: `np.bool` is a deprecated alias for the builtin `bool`. To silence this warning, use `bool` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.bool_` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  is_limited = physics.model.actuator_ctrllimited.ravel().astype(np.bool)
+/aiarena/nas/18_data/jiangy/RPSF/cnn/src/env/dm_control/dm_control/mujoco/engine.py:899: DeprecationWarning: `np.float` is a deprecated alias for the builtin `float`. To silence this warning, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  minima = np.full(num_actions, fill_value=-np.inf, dtype=np.float)
+/aiarena/nas/18_data/jiangy/RPSF/cnn/src/env/dm_control/dm_control/mujoco/engine.py:900: DeprecationWarning: `np.float` is a deprecated alias for the builtin `float`. To silence this warning, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  maxima = np.full(num_actions, fill_value=np.inf, dtype=np.float)
+/aiarena/nas/18_data/jiangy/RPSF/cnn/src/env/dm_control/dm_control/mujoco/engine.py:904: DeprecationWarning: `np.float` is a deprecated alias for the builtin `float`. To silence this warning, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  shape=(num_actions,), dtype=np.float, minimum=minima, maximum=maxima)
+/aiarena/nas/18_data/jiangy/RPSF/cnn/src/env/dmc2gym/dmc2gym/wrappers.py:10: DeprecationWarning: `np.int` is a deprecated alias for the builtin `int`. To silence this warning, use `int` by itself. Doing this will not modify any behavior and is safe. When replacing `np.int`, you may wish to use e.g. `np.int64` or `np.int32` to specify the precision. If you wish to review your current use, check the release note link for additional information.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  dim = np.int(np.prod(s.shape))
+/aiarena/nas/18_data/jiangy/RPSF/cnn/src/env/dm_control/dm_control/mujoco/engine.py:897: DeprecationWarning: `np.bool` is a deprecated alias for the builtin `bool`. To silence this warning, use `bool` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.bool_` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  is_limited = physics.model.actuator_ctrllimited.ravel().astype(np.bool)
+/aiarena/nas/18_data/jiangy/RPSF/cnn/src/env/dm_control/dm_control/mujoco/engine.py:899: DeprecationWarning: `np.float` is a deprecated alias for the builtin `float`. To silence this warning, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  minima = np.full(num_actions, fill_value=-np.inf, dtype=np.float)
+/aiarena/nas/18_data/jiangy/RPSF/cnn/src/env/dm_control/dm_control/mujoco/engine.py:900: DeprecationWarning: `np.float` is a deprecated alias for the builtin `float`. To silence this warning, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  maxima = np.full(num_actions, fill_value=np.inf, dtype=np.float)
+/aiarena/nas/18_data/jiangy/RPSF/cnn/src/env/dm_control/dm_control/mujoco/engine.py:904: DeprecationWarning: `np.float` is a deprecated alias for the builtin `float`. To silence this warning, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  shape=(num_actions,), dtype=np.float, minimum=minima, maximum=maxima)
+/aiarena/nas/18_data/jiangy/RPSF/cnn/src/env/dmc2gym/dmc2gym/wrappers.py:10: DeprecationWarning: `np.int` is a deprecated alias for the builtin `int`. To silence this warning, use `int` by itself. Doing this will not modify any behavior and is safe. When replacing `np.int`, you may wish to use e.g. `np.int64` or `np.int32` to specify the precision. If you wish to review your current use, check the release note link for additional information.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  dim = np.int(np.prod(s.shape))
+/aiarena/nas/18_data/jiangy/RPSF/cnn/src/env/dm_control/dm_control/mujoco/engine.py:897: DeprecationWarning: `np.bool` is a deprecated alias for the builtin `bool`. To silence this warning, use `bool` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.bool_` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  is_limited = physics.model.actuator_ctrllimited.ravel().astype(np.bool)
+/aiarena/nas/18_data/jiangy/RPSF/cnn/src/env/dm_control/dm_control/mujoco/engine.py:899: DeprecationWarning: `np.float` is a deprecated alias for the builtin `float`. To silence this warning, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  minima = np.full(num_actions, fill_value=-np.inf, dtype=np.float)
+/aiarena/nas/18_data/jiangy/RPSF/cnn/src/env/dm_control/dm_control/mujoco/engine.py:900: DeprecationWarning: `np.float` is a deprecated alias for the builtin `float`. To silence this warning, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  maxima = np.full(num_actions, fill_value=np.inf, dtype=np.float)
+/aiarena/nas/18_data/jiangy/RPSF/cnn/src/env/dm_control/dm_control/mujoco/engine.py:904: DeprecationWarning: `np.float` is a deprecated alias for the builtin `float`. To silence this warning, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  shape=(num_actions,), dtype=np.float, minimum=minima, maximum=maxima)
+/aiarena/nas/18_data/jiangy/RPSF/cnn/src/env/dmc2gym/dmc2gym/wrappers.py:10: DeprecationWarning: `np.int` is a deprecated alias for the builtin `int`. To silence this warning, use `int` by itself. Doing this will not modify any behavior and is safe. When replacing `np.int`, you may wish to use e.g. `np.int64` or `np.int32` to specify the precision. If you wish to review your current use, check the release note link for additional information.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  dim = np.int(np.prod(s.shape))
+aux: True
+head_true: False
+Working directory: logs/reacher_easy/svea/1
+Observations: (9, 84, 84)
+Cropped observations: (9, 84, 84)
+self.layers: ModuleList(
+  (0): NormalizeImg()
+  (1): Conv2d(9, 32, kernel_size=(3, 3), stride=(2, 2))
+  (2): ReLU()
+  (3): Conv2d(32, 32, kernel_size=(3, 3), stride=(1, 1))
+  (4): ReLU()
+  (5): Conv2d(32, 32, kernel_size=(3, 3), stride=(1, 1))
+  (6): ReLU()
+  (7): Conv2d(32, 32, kernel_size=(3, 3), stride=(1, 1))
+  (8): ReLU()
+  (9): Conv2d(32, 32, kernel_size=(3, 3), stride=(1, 1))
+  (10): ReLU()
+  (11): Conv2d(32, 32, kernel_size=(3, 3), stride=(1, 1))
+  (12): ReLU()
+  (13): Conv2d(32, 32, kernel_size=(3, 3), stride=(1, 1))
+  (14): ReLU()
+  (15): Conv2d(32, 32, kernel_size=(3, 3), stride=(1, 1))
+  (16): ReLU()
+  (17): Conv2d(32, 32, kernel_size=(3, 3), stride=(1, 1))
+  (18): ReLU()
+  (19): Conv2d(32, 32, kernel_size=(3, 3), stride=(1, 1))
+  (20): ReLU()
+  (21): Conv2d(32, 32, kernel_size=(3, 3), stride=(1, 1))
+)
+self.layers[:2*shared_cnn_layers]: ModuleList(
+  (0): NormalizeImg()
+  (1): Conv2d(9, 32, kernel_size=(3, 3), stride=(2, 2))
+  (2): ReLU()
+  (3): Conv2d(32, 32, kernel_size=(3, 3), stride=(1, 1))
+  (4): ReLU()
+  (5): Conv2d(32, 32, kernel_size=(3, 3), stride=(1, 1))
+  (6): ReLU()
+  (7): Conv2d(32, 32, kernel_size=(3, 3), stride=(1, 1))
+  (8): ReLU()
+  (9): Conv2d(32, 32, kernel_size=(3, 3), stride=(1, 1))
+  (10): ReLU()
+  (11): Conv2d(32, 32, kernel_size=(3, 3), stride=(1, 1))
+  (12): ReLU()
+  (13): Conv2d(32, 32, kernel_size=(3, 3), stride=(1, 1))
+  (14): ReLU()
+  (15): Conv2d(32, 32, kernel_size=(3, 3), stride=(1, 1))
+  (16): ReLU()
+  (17): Conv2d(32, 32, kernel_size=(3, 3), stride=(1, 1))
+  (18): ReLU()
+  (19): Conv2d(32, 32, kernel_size=(3, 3), stride=(1, 1))
+)
+x_shpae: torch.Size([9, 84, 84])
+x_shpae: torch.Size([32, 41, 41])
+x_shpae: torch.Size([32, 41, 41])
+x_shpae: torch.Size([32, 39, 39])
+x_shpae: torch.Size([32, 39, 39])
+x_shpae: torch.Size([32, 37, 37])
+x_shpae: torch.Size([32, 37, 37])
+x_shpae: torch.Size([32, 35, 35])
+x_shpae: torch.Size([32, 35, 35])
+x_shpae: torch.Size([32, 33, 33])
+x_shpae: torch.Size([32, 33, 33])
+x_shpae: torch.Size([32, 31, 31])
+x_shpae: torch.Size([32, 31, 31])
+x_shpae: torch.Size([32, 29, 29])
+x_shpae: torch.Size([32, 29, 29])
+x_shpae: torch.Size([32, 27, 27])
+x_shpae: torch.Size([32, 27, 27])
+x_shpae: torch.Size([32, 25, 25])
+x_shpae: torch.Size([32, 25, 25])
+x_shpae: torch.Size([32, 23, 23])
+x_shpae: torch.Size([32, 23, 23])
+x_shpae: torch.Size([32, 21, 21])
+x_shpae: torch.Size([9, 42, 42])
+x_shpae: torch.Size([32, 20, 20])
+x_shpae: torch.Size([32, 20, 20])
+x_shpae: torch.Size([32, 18, 18])
+x_shpae: torch.Size([32, 18, 18])
+x_shpae: torch.Size([32, 16, 16])
+x_shpae: torch.Size([32, 16, 16])
+x_shpae: torch.Size([32, 14, 14])
+x_shpae: torch.Size([32, 14, 14])
+x_shpae: torch.Size([32, 12, 12])
+x_shpae: torch.Size([32, 12, 12])
+x_shpae: torch.Size([32, 10, 10])
+x_shpae: torch.Size([32, 10, 10])
+x_shpae: torch.Size([32, 8, 8])
+x_shpae: torch.Size([32, 8, 8])
+x_shpae: torch.Size([32, 6, 6])
+x_shpae: torch.Size([32, 6, 6])
+x_shpae: torch.Size([32, 4, 4])
+x_shpae: torch.Size([32, 4, 4])
+x_shpae: torch.Size([32, 2, 2])
+x_shpae: torch.Size([14112])
+shape of feature_map_head_true: torch.Size([32, 21, 21])
+shape of feature_map_shared_cnn_for_aux: torch.Size([32, 2, 2])
+params of encoder_for_aux: <generator object Module.parameters at 0x7fbeb06acf90>
+params of decoder_head: <generator object Module.parameters at 0x7fbeb06acf90>
+Evaluating: logs/reacher_easy/svea/1
+| [32meval[39m | S: 0 | ER: 35.0000 | ERTEST: 0.0000
+| [33mtrain[39m | E: 1 | S: 250 | D: 1012.5 s | R: 0.0000 | ALOSS: 0.0000 | CLOSS: 0.0000 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 2 | S: 500 | D: 1.7 s | R: 34.0000 | ALOSS: 0.0000 | CLOSS: 0.0000 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 3 | S: 750 | D: 1.7 s | R: 73.0000 | ALOSS: 0.0000 | CLOSS: 0.0000 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 4 | S: 1000 | D: 1.7 s | R: 41.0000 | ALOSS: 0.0000 | CLOSS: 0.0000 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 5 | S: 1250 | D: 301.2 s | R: 18.0000 | ALOSS: -1.7836 | CLOSS: 3.6377 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 6 | S: 1500 | D: 61.0 s | R: 25.0000 | ALOSS: -4.7298 | CLOSS: 5.9604 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 7 | S: 1750 | D: 61.1 s | R: 130.0000 | ALOSS: -6.1234 | CLOSS: 6.9892 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 8 | S: 2000 | D: 60.5 s | R: 0.0000 | ALOSS: -7.4354 | CLOSS: 5.6522 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 9 | S: 2250 | D: 62.0 s | R: 0.0000 | ALOSS: -8.3608 | CLOSS: 5.7488 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 10 | S: 2500 | D: 60.6 s | R: 0.0000 | ALOSS: -10.5979 | CLOSS: 7.5574 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 11 | S: 2750 | D: 60.9 s | R: 0.0000 | ALOSS: -14.4352 | CLOSS: 7.0213 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 12 | S: 3000 | D: 60.7 s | R: 540.0000 | ALOSS: -16.9319 | CLOSS: 8.2829 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 13 | S: 3250 | D: 61.0 s | R: 14.0000 | ALOSS: -18.6856 | CLOSS: 10.7019 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 14 | S: 3500 | D: 60.5 s | R: 4.0000 | ALOSS: -21.3483 | CLOSS: 12.3709 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 15 | S: 3750 | D: 60.2 s | R: 3.0000 | ALOSS: -23.6354 | CLOSS: 12.0984 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 16 | S: 4000 | D: 61.0 s | R: 0.0000 | ALOSS: -27.7295 | CLOSS: 17.5262 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 17 | S: 4250 | D: 60.6 s | R: 796.0000 | ALOSS: -32.0256 | CLOSS: 18.8831 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 18 | S: 4500 | D: 61.0 s | R: 0.0000 | ALOSS: -34.1101 | CLOSS: 20.4445 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 19 | S: 4750 | D: 60.3 s | R: 12.0000 | ALOSS: -36.4593 | CLOSS: 20.1601 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 20 | S: 5000 | D: 60.6 s | R: 10.0000 | ALOSS: -38.4924 | CLOSS: 20.2041 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 21 | S: 5250 | D: 61.0 s | R: 119.0000 | ALOSS: -40.3496 | CLOSS: 17.0947 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 22 | S: 5500 | D: 61.0 s | R: 0.0000 | ALOSS: -42.3967 | CLOSS: 15.7421 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 23 | S: 5750 | D: 61.0 s | R: 111.0000 | ALOSS: -45.7860 | CLOSS: 15.7623 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 24 | S: 6000 | D: 60.4 s | R: 0.0000 | ALOSS: -47.7666 | CLOSS: 18.6719 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 25 | S: 6250 | D: 60.5 s | R: 0.0000 | ALOSS: -50.0491 | CLOSS: 18.7245 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 26 | S: 6500 | D: 60.9 s | R: 838.0000 | ALOSS: -52.9469 | CLOSS: 17.9260 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 27 | S: 6750 | D: 61.3 s | R: 0.0000 | ALOSS: -54.8092 | CLOSS: 17.5064 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 28 | S: 7000 | D: 61.2 s | R: 967.0000 | ALOSS: -58.0803 | CLOSS: 25.0129 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 29 | S: 7250 | D: 60.7 s | R: 4.0000 | ALOSS: -61.1722 | CLOSS: 26.4405 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 30 | S: 7500 | D: 60.5 s | R: 0.0000 | ALOSS: -64.5160 | CLOSS: 24.2087 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 31 | S: 7750 | D: 60.8 s | R: 0.0000 | ALOSS: -67.2716 | CLOSS: 22.6023 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 32 | S: 8000 | D: 60.2 s | R: 694.0000 | ALOSS: -69.5579 | CLOSS: 22.7331 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 33 | S: 8250 | D: 61.1 s | R: 0.0000 | ALOSS: -71.1244 | CLOSS: 23.6797 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 34 | S: 8500 | D: 62.9 s | R: 51.0000 | ALOSS: -73.0442 | CLOSS: 19.4741 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 35 | S: 8750 | D: 60.6 s | R: 972.0000 | ALOSS: -75.3089 | CLOSS: 18.4887 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 36 | S: 9000 | D: 61.2 s | R: 0.0000 | ALOSS: -76.6498 | CLOSS: 23.1363 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 37 | S: 9250 | D: 61.2 s | R: 42.0000 | ALOSS: -79.0741 | CLOSS: 25.6444 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 38 | S: 9500 | D: 61.0 s | R: 58.0000 | ALOSS: -82.1768 | CLOSS: 24.9344 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 39 | S: 9750 | D: 60.7 s | R: 0.0000 | ALOSS: -83.4971 | CLOSS: 25.8902 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 40 | S: 10000 | D: 60.4 s | R: 681.0000 | ALOSS: -85.3336 | CLOSS: 23.6947 | AUXLOSS: 0.0000
+Evaluating: logs/reacher_easy/svea/1
+| [32meval[39m | S: 10000 | ER: 143.1000 | ERTEST: 0.0000
+| [33mtrain[39m | E: 41 | S: 10250 | D: 1069.9 s | R: 0.0000 | ALOSS: -86.6092 | CLOSS: 23.0615 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 42 | S: 10500 | D: 61.2 s | R: 182.0000 | ALOSS: -88.3392 | CLOSS: 24.7123 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 43 | S: 10750 | D: 60.9 s | R: 103.0000 | ALOSS: -88.7363 | CLOSS: 22.5403 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 44 | S: 11000 | D: 61.3 s | R: 10.0000 | ALOSS: -90.7905 | CLOSS: 23.0668 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 45 | S: 11250 | D: 61.0 s | R: 10.0000 | ALOSS: -92.3125 | CLOSS: 35.0594 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 46 | S: 11500 | D: 60.6 s | R: 25.0000 | ALOSS: -92.9277 | CLOSS: 25.3281 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 47 | S: 11750 | D: 61.3 s | R: 302.0000 | ALOSS: -93.3133 | CLOSS: 20.8394 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 48 | S: 12000 | D: 60.9 s | R: 0.0000 | ALOSS: -93.6747 | CLOSS: 27.1274 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 49 | S: 12250 | D: 61.0 s | R: 129.0000 | ALOSS: -94.7518 | CLOSS: 55.7002 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 50 | S: 12500 | D: 61.4 s | R: 78.0000 | ALOSS: -97.9025 | CLOSS: 26.8450 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 51 | S: 12750 | D: 61.3 s | R: 981.0000 | ALOSS: -99.9415 | CLOSS: 29.1091 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 52 | S: 13000 | D: 63.9 s | R: 172.0000 | ALOSS: -101.1830 | CLOSS: 31.6747 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 53 | S: 13250 | D: 61.5 s | R: 49.0000 | ALOSS: -101.3279 | CLOSS: 27.8371 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 54 | S: 13500 | D: 60.7 s | R: 0.0000 | ALOSS: -101.2392 | CLOSS: 26.2648 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 55 | S: 13750 | D: 61.4 s | R: 0.0000 | ALOSS: -101.2289 | CLOSS: 27.0646 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 56 | S: 14000 | D: 62.4 s | R: 74.0000 | ALOSS: -101.4664 | CLOSS: 31.0550 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 57 | S: 14250 | D: 61.2 s | R: 93.0000 | ALOSS: -102.9174 | CLOSS: 46.6867 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 58 | S: 14500 | D: 61.4 s | R: 817.0000 | ALOSS: -104.9959 | CLOSS: 52.0972 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 59 | S: 14750 | D: 60.7 s | R: 149.0000 | ALOSS: -106.8173 | CLOSS: 57.0888 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 60 | S: 15000 | D: 61.0 s | R: 471.0000 | ALOSS: -107.6128 | CLOSS: 49.0192 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 61 | S: 15250 | D: 60.8 s | R: 126.0000 | ALOSS: -110.1037 | CLOSS: 44.3402 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 62 | S: 15500 | D: 61.2 s | R: 0.0000 | ALOSS: -110.8832 | CLOSS: 43.3618 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 63 | S: 15750 | D: 61.0 s | R: 36.0000 | ALOSS: -112.6422 | CLOSS: 44.8129 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 64 | S: 16000 | D: 61.2 s | R: 397.0000 | ALOSS: -113.6466 | CLOSS: 43.9337 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 65 | S: 16250 | D: 61.5 s | R: 28.0000 | ALOSS: -115.2093 | CLOSS: 49.3011 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 66 | S: 16500 | D: 61.3 s | R: 0.0000 | ALOSS: -116.9466 | CLOSS: 49.5873 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 67 | S: 16750 | D: 60.7 s | R: 25.0000 | ALOSS: -118.3730 | CLOSS: 54.3384 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 68 | S: 17000 | D: 61.1 s | R: 962.0000 | ALOSS: -121.1645 | CLOSS: 61.7846 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 69 | S: 17250 | D: 62.8 s | R: 0.0000 | ALOSS: -123.0154 | CLOSS: 58.4894 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 70 | S: 17500 | D: 62.7 s | R: 16.0000 | ALOSS: -124.0144 | CLOSS: 54.4508 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 71 | S: 17750 | D: 64.1 s | R: 835.0000 | ALOSS: -125.9900 | CLOSS: 53.2103 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 72 | S: 18000 | D: 63.4 s | R: 651.0000 | ALOSS: -127.7807 | CLOSS: 79.5596 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 73 | S: 18250 | D: 62.6 s | R: 303.0000 | ALOSS: -130.7963 | CLOSS: 77.9861 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 74 | S: 18500 | D: 62.8 s | R: 150.0000 | ALOSS: -132.2770 | CLOSS: 70.0193 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 75 | S: 18750 | D: 61.4 s | R: 148.0000 | ALOSS: -134.0020 | CLOSS: 63.8840 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 76 | S: 19000 | D: 61.4 s | R: 603.0000 | ALOSS: -135.8099 | CLOSS: 59.8997 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 77 | S: 19250 | D: 61.5 s | R: 0.0000 | ALOSS: -136.1894 | CLOSS: 54.6187 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 78 | S: 19500 | D: 60.9 s | R: 699.0000 | ALOSS: -137.4104 | CLOSS: 51.5993 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 79 | S: 19750 | D: 61.5 s | R: 0.0000 | ALOSS: -136.8065 | CLOSS: 51.7922 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 80 | S: 20000 | D: 61.2 s | R: 10.0000 | ALOSS: -138.1563 | CLOSS: 49.8855 | AUXLOSS: 0.0000
+Evaluating: logs/reacher_easy/svea/1
+| [32meval[39m | S: 20000 | ER: 434.3667 | ERTEST: 0.0000
+| [33mtrain[39m | E: 81 | S: 20250 | D: 1073.2 s | R: 965.0000 | ALOSS: -138.8252 | CLOSS: 54.9186 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 82 | S: 20500 | D: 61.2 s | R: 71.0000 | ALOSS: -140.3916 | CLOSS: 79.7053 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 83 | S: 20750 | D: 61.2 s | R: 156.0000 | ALOSS: -140.1948 | CLOSS: 55.0231 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 84 | S: 21000 | D: 61.1 s | R: 795.0000 | ALOSS: -140.7476 | CLOSS: 95.6853 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 85 | S: 21250 | D: 61.8 s | R: 30.0000 | ALOSS: -142.2636 | CLOSS: 81.0221 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 86 | S: 21500 | D: 61.0 s | R: 506.0000 | ALOSS: -144.8408 | CLOSS: 76.9680 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 87 | S: 21750 | D: 61.1 s | R: 13.0000 | ALOSS: -145.5347 | CLOSS: 69.4312 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 88 | S: 22000 | D: 61.3 s | R: 296.0000 | ALOSS: -146.1077 | CLOSS: 68.8022 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 89 | S: 22250 | D: 61.4 s | R: 72.0000 | ALOSS: -146.2905 | CLOSS: 73.9347 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 90 | S: 22500 | D: 61.0 s | R: 104.0000 | ALOSS: -148.1140 | CLOSS: 77.9595 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 91 | S: 22750 | D: 60.8 s | R: 78.0000 | ALOSS: -149.0755 | CLOSS: 67.8172 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 92 | S: 23000 | D: 60.5 s | R: 866.0000 | ALOSS: -151.8894 | CLOSS: 66.7528 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 93 | S: 23250 | D: 61.0 s | R: 964.0000 | ALOSS: -154.3338 | CLOSS: 59.0514 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 94 | S: 23500 | D: 61.0 s | R: 970.0000 | ALOSS: -155.9582 | CLOSS: 55.4913 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 95 | S: 23750 | D: 60.8 s | R: 190.0000 | ALOSS: -156.0055 | CLOSS: 60.8071 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 96 | S: 24000 | D: 61.4 s | R: 946.0000 | ALOSS: -158.2557 | CLOSS: 62.9432 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 97 | S: 24250 | D: 60.9 s | R: 32.0000 | ALOSS: -157.5491 | CLOSS: 67.0276 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 98 | S: 24500 | D: 61.1 s | R: 42.0000 | ALOSS: -160.0636 | CLOSS: 58.5636 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 99 | S: 24750 | D: 60.9 s | R: 993.0000 | ALOSS: -160.6247 | CLOSS: 84.9572 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 100 | S: 25000 | D: 61.3 s | R: 134.0000 | ALOSS: -161.9432 | CLOSS: 73.3361 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 101 | S: 25250 | D: 61.4 s | R: 17.0000 | ALOSS: -160.7958 | CLOSS: 61.8162 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 102 | S: 25500 | D: 61.3 s | R: 393.0000 | ALOSS: -159.3314 | CLOSS: 54.5482 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 103 | S: 25750 | D: 60.9 s | R: 985.0000 | ALOSS: -159.7988 | CLOSS: 56.8246 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 104 | S: 26000 | D: 61.2 s | R: 0.0000 | ALOSS: -160.7506 | CLOSS: 69.8314 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 105 | S: 26250 | D: 61.0 s | R: 883.0000 | ALOSS: -162.3798 | CLOSS: 58.8693 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 106 | S: 26500 | D: 61.5 s | R: 386.0000 | ALOSS: -161.6147 | CLOSS: 48.8058 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 107 | S: 26750 | D: 61.1 s | R: 44.0000 | ALOSS: -160.3438 | CLOSS: 68.4256 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 108 | S: 27000 | D: 61.0 s | R: 142.0000 | ALOSS: -162.4105 | CLOSS: 73.9918 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 109 | S: 27250 | D: 61.2 s | R: 0.0000 | ALOSS: -161.5449 | CLOSS: 71.7066 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 110 | S: 27500 | D: 60.9 s | R: 8.0000 | ALOSS: -160.3301 | CLOSS: 59.7879 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 111 | S: 27750 | D: 61.5 s | R: 4.0000 | ALOSS: -160.5399 | CLOSS: 60.5252 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 112 | S: 28000 | D: 61.6 s | R: 950.0000 | ALOSS: -161.9099 | CLOSS: 58.1347 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 113 | S: 28250 | D: 61.2 s | R: 0.0000 | ALOSS: -162.4341 | CLOSS: 66.9116 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 114 | S: 28500 | D: 61.3 s | R: 880.0000 | ALOSS: -165.6280 | CLOSS: 59.2897 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 115 | S: 28750 | D: 61.4 s | R: 987.0000 | ALOSS: -164.9249 | CLOSS: 68.3510 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 116 | S: 29000 | D: 61.2 s | R: 8.0000 | ALOSS: -166.0729 | CLOSS: 70.3203 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 117 | S: 29250 | D: 61.6 s | R: 0.0000 | ALOSS: -167.3952 | CLOSS: 59.8050 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 118 | S: 29500 | D: 60.8 s | R: 768.0000 | ALOSS: -168.2527 | CLOSS: 72.1607 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 119 | S: 29750 | D: 60.7 s | R: 299.0000 | ALOSS: -168.5247 | CLOSS: 66.7836 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 120 | S: 30000 | D: 61.5 s | R: 75.0000 | ALOSS: -168.1537 | CLOSS: 75.7195 | AUXLOSS: 0.0000
+Evaluating: logs/reacher_easy/svea/1
+| [32meval[39m | S: 30000 | ER: 500.9333 | ERTEST: 0.0000
+| [33mtrain[39m | E: 121 | S: 30250 | D: 1086.4 s | R: 21.0000 | ALOSS: -168.5710 | CLOSS: 67.1634 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 122 | S: 30500 | D: 62.1 s | R: 0.0000 | ALOSS: -167.7244 | CLOSS: 80.4397 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 123 | S: 30750 | D: 61.9 s | R: 203.0000 | ALOSS: -167.5925 | CLOSS: 84.6496 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 124 | S: 31000 | D: 61.6 s | R: 842.0000 | ALOSS: -166.8454 | CLOSS: 79.0361 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 125 | S: 31250 | D: 61.8 s | R: 35.0000 | ALOSS: -169.4494 | CLOSS: 74.2487 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 126 | S: 31500 | D: 61.8 s | R: 190.0000 | ALOSS: -167.3901 | CLOSS: 82.0328 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 127 | S: 31750 | D: 61.3 s | R: 915.0000 | ALOSS: -169.7569 | CLOSS: 77.6298 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 128 | S: 32000 | D: 61.5 s | R: 975.0000 | ALOSS: -171.7854 | CLOSS: 92.4842 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 129 | S: 32250 | D: 61.8 s | R: 57.0000 | ALOSS: -172.2044 | CLOSS: 69.7002 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 130 | S: 32500 | D: 61.4 s | R: 832.0000 | ALOSS: -173.1860 | CLOSS: 80.7862 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 131 | S: 32750 | D: 61.9 s | R: 97.0000 | ALOSS: -173.4079 | CLOSS: 81.8250 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 132 | S: 33000 | D: 62.0 s | R: 326.0000 | ALOSS: -173.9541 | CLOSS: 86.1655 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 133 | S: 33250 | D: 61.3 s | R: 337.0000 | ALOSS: -175.5495 | CLOSS: 99.7557 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 134 | S: 33500 | D: 61.3 s | R: 53.0000 | ALOSS: -175.3909 | CLOSS: 89.2203 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 135 | S: 33750 | D: 61.5 s | R: 916.0000 | ALOSS: -178.8922 | CLOSS: 87.8254 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 136 | S: 34000 | D: 64.1 s | R: 5.0000 | ALOSS: -177.8550 | CLOSS: 81.2908 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 137 | S: 34250 | D: 61.8 s | R: 10.0000 | ALOSS: -176.8971 | CLOSS: 88.6247 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 138 | S: 34500 | D: 61.5 s | R: 347.0000 | ALOSS: -178.3952 | CLOSS: 86.6668 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 139 | S: 34750 | D: 61.3 s | R: 896.0000 | ALOSS: -180.0121 | CLOSS: 83.5053 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 140 | S: 35000 | D: 62.9 s | R: 968.0000 | ALOSS: -181.6605 | CLOSS: 77.5074 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 141 | S: 35250 | D: 61.3 s | R: 889.0000 | ALOSS: -179.8922 | CLOSS: 88.9740 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 142 | S: 35500 | D: 61.2 s | R: 0.0000 | ALOSS: -180.4829 | CLOSS: 107.9418 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 143 | S: 35750 | D: 62.4 s | R: 0.0000 | ALOSS: -181.0398 | CLOSS: 93.2895 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 144 | S: 36000 | D: 61.2 s | R: 0.0000 | ALOSS: -180.2127 | CLOSS: 85.0176 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 145 | S: 36250 | D: 64.0 s | R: 428.0000 | ALOSS: -181.0340 | CLOSS: 115.0329 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 146 | S: 36500 | D: 62.0 s | R: 0.0000 | ALOSS: -179.6881 | CLOSS: 106.8830 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 147 | S: 36750 | D: 61.6 s | R: 150.0000 | ALOSS: -181.3166 | CLOSS: 90.5948 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 148 | S: 37000 | D: 62.8 s | R: 68.0000 | ALOSS: -179.5741 | CLOSS: 88.9000 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 149 | S: 37250 | D: 62.0 s | R: 0.0000 | ALOSS: -179.1933 | CLOSS: 86.2468 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 150 | S: 37500 | D: 61.1 s | R: 473.0000 | ALOSS: -181.0885 | CLOSS: 107.0375 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 151 | S: 37750 | D: 61.1 s | R: 662.0000 | ALOSS: -180.6776 | CLOSS: 85.4265 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 152 | S: 38000 | D: 62.0 s | R: 988.0000 | ALOSS: -182.0365 | CLOSS: 87.6757 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 153 | S: 38250 | D: 61.2 s | R: 894.0000 | ALOSS: -181.7111 | CLOSS: 93.2135 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 154 | S: 38500 | D: 63.2 s | R: 784.0000 | ALOSS: -184.7338 | CLOSS: 100.8503 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 155 | S: 38750 | D: 61.3 s | R: 892.0000 | ALOSS: -185.1665 | CLOSS: 104.0054 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 156 | S: 39000 | D: 62.6 s | R: 381.0000 | ALOSS: -188.2473 | CLOSS: 86.2239 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 157 | S: 39250 | D: 61.5 s | R: 0.0000 | ALOSS: -187.9930 | CLOSS: 89.7849 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 158 | S: 39500 | D: 61.5 s | R: 365.0000 | ALOSS: -188.1908 | CLOSS: 83.0353 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 159 | S: 39750 | D: 61.7 s | R: 968.0000 | ALOSS: -188.2503 | CLOSS: 89.1747 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 160 | S: 40000 | D: 61.4 s | R: 88.0000 | ALOSS: -187.9064 | CLOSS: 99.4636 | AUXLOSS: 0.0000
+Evaluating: logs/reacher_easy/svea/1
+| [32meval[39m | S: 40000 | ER: 399.5333 | ERTEST: 0.0000
+| [33mtrain[39m | E: 161 | S: 40250 | D: 1095.2 s | R: 993.0000 | ALOSS: -187.6278 | CLOSS: 91.0499 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 162 | S: 40500 | D: 61.5 s | R: 23.0000 | ALOSS: -189.5137 | CLOSS: 83.5458 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 163 | S: 40750 | D: 61.9 s | R: 151.0000 | ALOSS: -187.9302 | CLOSS: 102.0923 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 164 | S: 41000 | D: 61.1 s | R: 3.0000 | ALOSS: -186.8455 | CLOSS: 91.6054 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 165 | S: 41250 | D: 60.8 s | R: 0.0000 | ALOSS: -187.0293 | CLOSS: 78.6892 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 166 | S: 41500 | D: 61.4 s | R: 967.0000 | ALOSS: -189.1462 | CLOSS: 88.3654 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 167 | S: 41750 | D: 62.1 s | R: 963.0000 | ALOSS: -190.3720 | CLOSS: 79.0443 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 168 | S: 42000 | D: 61.3 s | R: 504.0000 | ALOSS: -190.8561 | CLOSS: 115.5640 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 169 | S: 42250 | D: 61.8 s | R: 47.0000 | ALOSS: -190.4149 | CLOSS: 97.5346 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 170 | S: 42500 | D: 67.5 s | R: 3.0000 | ALOSS: -189.7966 | CLOSS: 134.5981 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 171 | S: 42750 | D: 63.9 s | R: 102.0000 | ALOSS: -190.0303 | CLOSS: 107.5912 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 172 | S: 43000 | D: 62.9 s | R: 808.0000 | ALOSS: -192.5851 | CLOSS: 118.4426 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 173 | S: 43250 | D: 62.8 s | R: 174.0000 | ALOSS: -191.6703 | CLOSS: 94.2849 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 174 | S: 43500 | D: 63.2 s | R: 796.0000 | ALOSS: -193.0052 | CLOSS: 93.5994 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 175 | S: 43750 | D: 63.5 s | R: 859.0000 | ALOSS: -193.8015 | CLOSS: 90.0688 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 176 | S: 44000 | D: 61.8 s | R: 953.0000 | ALOSS: -194.6715 | CLOSS: 82.3775 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 177 | S: 44250 | D: 61.0 s | R: 909.0000 | ALOSS: -196.0873 | CLOSS: 104.7387 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 178 | S: 44500 | D: 61.4 s | R: 950.0000 | ALOSS: -196.0089 | CLOSS: 103.0232 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 179 | S: 44750 | D: 61.3 s | R: 989.0000 | ALOSS: -195.8230 | CLOSS: 83.2794 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 180 | S: 45000 | D: 62.4 s | R: 0.0000 | ALOSS: -195.6907 | CLOSS: 78.8560 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 181 | S: 45250 | D: 61.2 s | R: 682.0000 | ALOSS: -198.9463 | CLOSS: 99.1832 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 182 | S: 45500 | D: 61.2 s | R: 590.0000 | ALOSS: -198.0936 | CLOSS: 97.8299 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 183 | S: 45750 | D: 61.1 s | R: 987.0000 | ALOSS: -198.5612 | CLOSS: 104.0283 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 184 | S: 46000 | D: 60.8 s | R: 27.0000 | ALOSS: -199.0553 | CLOSS: 96.4287 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 185 | S: 46250 | D: 61.2 s | R: 962.0000 | ALOSS: -198.8987 | CLOSS: 97.6888 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 186 | S: 46500 | D: 61.5 s | R: 0.0000 | ALOSS: -199.7132 | CLOSS: 78.9451 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 187 | S: 46750 | D: 60.9 s | R: 535.0000 | ALOSS: -200.6850 | CLOSS: 80.0161 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 188 | S: 47000 | D: 61.5 s | R: 786.0000 | ALOSS: -202.1006 | CLOSS: 80.9688 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 189 | S: 47250 | D: 61.3 s | R: 88.0000 | ALOSS: -202.9313 | CLOSS: 79.9845 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 190 | S: 47500 | D: 63.0 s | R: 56.0000 | ALOSS: -200.6185 | CLOSS: 79.0324 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 191 | S: 47750 | D: 61.4 s | R: 329.0000 | ALOSS: -202.6451 | CLOSS: 103.6414 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 192 | S: 48000 | D: 61.3 s | R: 47.0000 | ALOSS: -202.4803 | CLOSS: 97.7101 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 193 | S: 48250 | D: 61.4 s | R: 880.0000 | ALOSS: -204.0554 | CLOSS: 93.2539 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 194 | S: 48500 | D: 61.5 s | R: 981.0000 | ALOSS: -204.7523 | CLOSS: 94.0912 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 195 | S: 48750 | D: 61.0 s | R: 797.0000 | ALOSS: -205.4066 | CLOSS: 83.0718 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 196 | S: 49000 | D: 61.1 s | R: 71.0000 | ALOSS: -206.1747 | CLOSS: 91.1876 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 197 | S: 49250 | D: 61.7 s | R: 0.0000 | ALOSS: -204.2383 | CLOSS: 107.5012 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 198 | S: 49500 | D: 61.0 s | R: 22.0000 | ALOSS: -205.1773 | CLOSS: 109.7314 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 199 | S: 49750 | D: 61.6 s | R: 709.0000 | ALOSS: -205.7929 | CLOSS: 104.0704 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 200 | S: 50000 | D: 60.7 s | R: 35.0000 | ALOSS: -204.8423 | CLOSS: 107.4184 | AUXLOSS: 0.0000
+Evaluating: logs/reacher_easy/svea/1
+| [32meval[39m | S: 50000 | ER: 473.2000 | ERTEST: 0.0000
+| [33mtrain[39m | E: 201 | S: 50250 | D: 1073.4 s | R: 910.0000 | ALOSS: -205.9806 | CLOSS: 99.6523 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 202 | S: 50500 | D: 60.4 s | R: 0.0000 | ALOSS: -205.0091 | CLOSS: 131.7299 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 203 | S: 50750 | D: 61.4 s | R: 412.0000 | ALOSS: -205.5881 | CLOSS: 121.1312 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 204 | S: 51000 | D: 61.4 s | R: 66.0000 | ALOSS: -204.1502 | CLOSS: 105.4637 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 205 | S: 51250 | D: 62.1 s | R: 0.0000 | ALOSS: -204.3004 | CLOSS: 95.9143 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 206 | S: 51500 | D: 62.2 s | R: 0.0000 | ALOSS: -204.3932 | CLOSS: 120.1965 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 207 | S: 51750 | D: 61.4 s | R: 247.0000 | ALOSS: -206.4857 | CLOSS: 134.0787 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 208 | S: 52000 | D: 61.7 s | R: 32.0000 | ALOSS: -205.8998 | CLOSS: 109.9583 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 209 | S: 52250 | D: 62.1 s | R: 669.0000 | ALOSS: -207.9539 | CLOSS: 111.5518 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 210 | S: 52500 | D: 61.2 s | R: 164.0000 | ALOSS: -207.7995 | CLOSS: 102.3142 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 211 | S: 52750 | D: 61.6 s | R: 22.0000 | ALOSS: -207.0596 | CLOSS: 120.0530 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 212 | S: 53000 | D: 62.1 s | R: 83.0000 | ALOSS: -207.7081 | CLOSS: 103.7575 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 213 | S: 53250 | D: 61.3 s | R: 809.0000 | ALOSS: -206.4287 | CLOSS: 104.2345 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 214 | S: 53500 | D: 61.2 s | R: 832.0000 | ALOSS: -209.5820 | CLOSS: 90.0240 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 215 | S: 53750 | D: 61.7 s | R: 0.0000 | ALOSS: -209.2936 | CLOSS: 97.0445 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 216 | S: 54000 | D: 61.9 s | R: 977.0000 | ALOSS: -207.3884 | CLOSS: 95.2621 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 217 | S: 54250 | D: 61.4 s | R: 89.0000 | ALOSS: -207.5088 | CLOSS: 106.2557 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 218 | S: 54500 | D: 62.9 s | R: 0.0000 | ALOSS: -208.9641 | CLOSS: 98.0605 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 219 | S: 54750 | D: 61.3 s | R: 0.0000 | ALOSS: -209.3052 | CLOSS: 91.9809 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 220 | S: 55000 | D: 61.5 s | R: 937.0000 | ALOSS: -207.5502 | CLOSS: 98.5319 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 221 | S: 55250 | D: 61.0 s | R: 935.0000 | ALOSS: -208.8188 | CLOSS: 134.4058 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 222 | S: 55500 | D: 61.2 s | R: 120.0000 | ALOSS: -207.0359 | CLOSS: 101.9410 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 223 | S: 55750 | D: 61.3 s | R: 12.0000 | ALOSS: -209.2135 | CLOSS: 96.0883 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 224 | S: 56000 | D: 61.2 s | R: 967.0000 | ALOSS: -210.1899 | CLOSS: 87.6134 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 225 | S: 56250 | D: 61.0 s | R: 944.0000 | ALOSS: -210.2750 | CLOSS: 87.1758 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 226 | S: 56500 | D: 61.3 s | R: 847.0000 | ALOSS: -210.8776 | CLOSS: 89.7344 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 227 | S: 56750 | D: 62.1 s | R: 15.0000 | ALOSS: -210.2223 | CLOSS: 77.9234 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 228 | S: 57000 | D: 61.2 s | R: 20.0000 | ALOSS: -208.4049 | CLOSS: 90.2804 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 229 | S: 57250 | D: 62.2 s | R: 468.0000 | ALOSS: -207.6050 | CLOSS: 88.2337 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 230 | S: 57500 | D: 61.0 s | R: 934.0000 | ALOSS: -208.9394 | CLOSS: 98.0946 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 231 | S: 57750 | D: 61.5 s | R: 168.0000 | ALOSS: -208.5328 | CLOSS: 73.4449 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 232 | S: 58000 | D: 61.1 s | R: 54.0000 | ALOSS: -207.5471 | CLOSS: 90.1539 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 233 | S: 58250 | D: 60.7 s | R: 33.0000 | ALOSS: -206.8243 | CLOSS: 81.9244 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 234 | S: 58500 | D: 60.8 s | R: 4.0000 | ALOSS: -206.4897 | CLOSS: 88.4737 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 235 | S: 58750 | D: 61.3 s | R: 177.0000 | ALOSS: -207.7502 | CLOSS: 94.4112 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 236 | S: 59000 | D: 61.6 s | R: 949.0000 | ALOSS: -207.6191 | CLOSS: 92.7883 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 237 | S: 59250 | D: 61.5 s | R: 200.0000 | ALOSS: -205.6676 | CLOSS: 83.2902 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 238 | S: 59500 | D: 61.7 s | R: 177.0000 | ALOSS: -204.9713 | CLOSS: 89.4524 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 239 | S: 59750 | D: 62.1 s | R: 183.0000 | ALOSS: -205.4638 | CLOSS: 109.1576 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 240 | S: 60000 | D: 62.4 s | R: 52.0000 | ALOSS: -205.8260 | CLOSS: 90.2181 | AUXLOSS: 0.0000
+Evaluating: logs/reacher_easy/svea/1
+| [32meval[39m | S: 60000 | ER: 461.2000 | ERTEST: 0.0000
+| [33mtrain[39m | E: 241 | S: 60250 | D: 1078.1 s | R: 872.0000 | ALOSS: -203.2415 | CLOSS: 85.7661 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 242 | S: 60500 | D: 61.3 s | R: 27.0000 | ALOSS: -204.1760 | CLOSS: 79.9152 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 243 | S: 60750 | D: 61.5 s | R: 0.0000 | ALOSS: -203.7919 | CLOSS: 89.1991 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 244 | S: 61000 | D: 61.3 s | R: 761.0000 | ALOSS: -204.1699 | CLOSS: 79.2982 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 245 | S: 61250 | D: 60.6 s | R: 963.0000 | ALOSS: -204.2758 | CLOSS: 115.2272 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 246 | S: 61500 | D: 61.4 s | R: 0.0000 | ALOSS: -205.5475 | CLOSS: 92.5558 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 247 | S: 61750 | D: 60.8 s | R: 10.0000 | ALOSS: -206.9412 | CLOSS: 77.5155 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 248 | S: 62000 | D: 61.4 s | R: 943.0000 | ALOSS: -205.4287 | CLOSS: 74.7245 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 249 | S: 62250 | D: 62.0 s | R: 984.0000 | ALOSS: -206.2268 | CLOSS: 74.6076 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 250 | S: 62500 | D: 61.7 s | R: 952.0000 | ALOSS: -208.0595 | CLOSS: 86.9317 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 251 | S: 62750 | D: 61.9 s | R: 91.0000 | ALOSS: -207.4869 | CLOSS: 85.1814 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 252 | S: 63000 | D: 61.7 s | R: 709.0000 | ALOSS: -208.6539 | CLOSS: 89.6740 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 253 | S: 63250 | D: 61.2 s | R: 0.0000 | ALOSS: -209.7075 | CLOSS: 79.9597 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 254 | S: 63500 | D: 61.7 s | R: 651.0000 | ALOSS: -208.7089 | CLOSS: 82.7130 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 255 | S: 63750 | D: 61.5 s | R: 871.0000 | ALOSS: -211.0331 | CLOSS: 81.2542 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 256 | S: 64000 | D: 61.3 s | R: 952.0000 | ALOSS: -210.8182 | CLOSS: 86.5471 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 257 | S: 64250 | D: 61.4 s | R: 161.0000 | ALOSS: -208.4555 | CLOSS: 91.1943 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 258 | S: 64500 | D: 61.1 s | R: 977.0000 | ALOSS: -209.6121 | CLOSS: 86.0009 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 259 | S: 64750 | D: 61.4 s | R: 949.0000 | ALOSS: -210.0386 | CLOSS: 91.3142 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 260 | S: 65000 | D: 61.5 s | R: 369.0000 | ALOSS: -209.3161 | CLOSS: 84.6738 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 261 | S: 65250 | D: 61.3 s | R: 945.0000 | ALOSS: -210.8117 | CLOSS: 81.1041 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 262 | S: 65500 | D: 61.4 s | R: 0.0000 | ALOSS: -211.3946 | CLOSS: 86.3793 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 263 | S: 65750 | D: 62.2 s | R: 26.0000 | ALOSS: -209.0491 | CLOSS: 86.3778 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 264 | S: 66000 | D: 61.2 s | R: 752.0000 | ALOSS: -210.8404 | CLOSS: 80.4005 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 265 | S: 66250 | D: 61.6 s | R: 21.0000 | ALOSS: -209.2865 | CLOSS: 72.7878 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 266 | S: 66500 | D: 61.9 s | R: 9.0000 | ALOSS: -209.7422 | CLOSS: 71.9837 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 267 | S: 66750 | D: 61.2 s | R: 964.0000 | ALOSS: -209.0583 | CLOSS: 71.8947 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 268 | S: 67000 | D: 61.2 s | R: 945.0000 | ALOSS: -211.4204 | CLOSS: 103.0217 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 269 | S: 67250 | D: 62.0 s | R: 908.0000 | ALOSS: -212.8806 | CLOSS: 73.5282 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 270 | S: 67500 | D: 64.5 s | R: 985.0000 | ALOSS: -212.0529 | CLOSS: 67.4736 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 271 | S: 67750 | D: 61.0 s | R: 0.0000 | ALOSS: -211.8681 | CLOSS: 143.9467 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 272 | S: 68000 | D: 60.9 s | R: 3.0000 | ALOSS: -211.5945 | CLOSS: 103.7197 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 273 | S: 68250 | D: 61.7 s | R: 943.0000 | ALOSS: -211.9449 | CLOSS: 75.4028 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 274 | S: 68500 | D: 61.4 s | R: 946.0000 | ALOSS: -214.1142 | CLOSS: 99.8495 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 275 | S: 68750 | D: 61.5 s | R: 57.0000 | ALOSS: -213.4432 | CLOSS: 102.4058 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 276 | S: 69000 | D: 60.7 s | R: 851.0000 | ALOSS: -213.8227 | CLOSS: 92.4409 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 277 | S: 69250 | D: 60.8 s | R: 5.0000 | ALOSS: -212.6886 | CLOSS: 81.9181 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 278 | S: 69500 | D: 62.1 s | R: 56.0000 | ALOSS: -210.3489 | CLOSS: 76.7597 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 279 | S: 69750 | D: 61.5 s | R: 92.0000 | ALOSS: -211.2974 | CLOSS: 75.4494 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 280 | S: 70000 | D: 61.1 s | R: 276.0000 | ALOSS: -211.4151 | CLOSS: 90.8228 | AUXLOSS: 0.0000
+Evaluating: logs/reacher_easy/svea/1
+| [32meval[39m | S: 70000 | ER: 667.5667 | ERTEST: 0.0000
+| [33mtrain[39m | E: 281 | S: 70250 | D: 1225.8 s | R: 0.0000 | ALOSS: -211.2241 | CLOSS: 97.8951 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 282 | S: 70500 | D: 61.5 s | R: 29.0000 | ALOSS: -209.5945 | CLOSS: 73.6414 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 283 | S: 70750 | D: 61.6 s | R: 40.0000 | ALOSS: -211.0654 | CLOSS: 73.8994 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 284 | S: 71000 | D: 62.1 s | R: 974.0000 | ALOSS: -210.9172 | CLOSS: 61.2439 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 285 | S: 71250 | D: 61.3 s | R: 87.0000 | ALOSS: -209.9027 | CLOSS: 71.0485 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 286 | S: 71500 | D: 61.1 s | R: 0.0000 | ALOSS: -210.1182 | CLOSS: 89.8632 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 287 | S: 71750 | D: 61.9 s | R: 6.0000 | ALOSS: -209.6476 | CLOSS: 81.7805 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 288 | S: 72000 | D: 61.8 s | R: 0.0000 | ALOSS: -208.5960 | CLOSS: 93.8437 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 289 | S: 72250 | D: 61.4 s | R: 980.0000 | ALOSS: -210.2374 | CLOSS: 86.9520 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 290 | S: 72500 | D: 61.1 s | R: 948.0000 | ALOSS: -208.7307 | CLOSS: 95.1078 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 291 | S: 72750 | D: 62.1 s | R: 249.0000 | ALOSS: -209.6754 | CLOSS: 84.7000 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 292 | S: 73000 | D: 62.1 s | R: 465.0000 | ALOSS: -208.6086 | CLOSS: 73.7616 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 293 | S: 73250 | D: 62.8 s | R: 0.0000 | ALOSS: -208.7054 | CLOSS: 85.6342 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 294 | S: 73500 | D: 61.9 s | R: 851.0000 | ALOSS: -207.5516 | CLOSS: 99.9328 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 295 | S: 73750 | D: 67.4 s | R: 945.0000 | ALOSS: -210.2660 | CLOSS: 89.2822 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 296 | S: 74000 | D: 61.7 s | R: 0.0000 | ALOSS: -208.8893 | CLOSS: 76.5107 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 297 | S: 74250 | D: 63.2 s | R: 0.0000 | ALOSS: -210.1585 | CLOSS: 82.3675 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 298 | S: 74500 | D: 61.6 s | R: 970.0000 | ALOSS: -209.1759 | CLOSS: 86.0557 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 299 | S: 74750 | D: 60.8 s | R: 744.0000 | ALOSS: -208.5000 | CLOSS: 78.1561 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 300 | S: 75000 | D: 61.9 s | R: 694.0000 | ALOSS: -208.3767 | CLOSS: 95.7765 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 301 | S: 75250 | D: 61.9 s | R: 167.0000 | ALOSS: -207.2396 | CLOSS: 92.1936 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 302 | S: 75500 | D: 61.2 s | R: 0.0000 | ALOSS: -208.4361 | CLOSS: 89.2242 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 303 | S: 75750 | D: 61.4 s | R: 202.0000 | ALOSS: -207.4481 | CLOSS: 73.4225 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 304 | S: 76000 | D: 61.0 s | R: 874.0000 | ALOSS: -208.7156 | CLOSS: 62.3734 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 305 | S: 76250 | D: 61.0 s | R: 863.0000 | ALOSS: -210.1503 | CLOSS: 71.5623 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 306 | S: 76500 | D: 61.7 s | R: 84.0000 | ALOSS: -208.7526 | CLOSS: 76.6024 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 307 | S: 76750 | D: 61.4 s | R: 40.0000 | ALOSS: -209.8419 | CLOSS: 61.2839 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 308 | S: 77000 | D: 61.7 s | R: 281.0000 | ALOSS: -208.1899 | CLOSS: 86.8397 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 309 | S: 77250 | D: 61.3 s | R: 0.0000 | ALOSS: -207.6856 | CLOSS: 108.8253 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 310 | S: 77500 | D: 61.8 s | R: 3.0000 | ALOSS: -206.6782 | CLOSS: 92.2539 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 311 | S: 77750 | D: 61.4 s | R: 32.0000 | ALOSS: -206.9367 | CLOSS: 77.3335 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 312 | S: 78000 | D: 61.1 s | R: 14.0000 | ALOSS: -206.9408 | CLOSS: 87.7223 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 313 | S: 78250 | D: 63.2 s | R: 991.0000 | ALOSS: -209.1802 | CLOSS: 76.6168 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 314 | S: 78500 | D: 61.9 s | R: 0.0000 | ALOSS: -208.2594 | CLOSS: 66.7340 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 315 | S: 78750 | D: 61.8 s | R: 692.0000 | ALOSS: -207.5384 | CLOSS: 85.3719 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 316 | S: 79000 | D: 61.6 s | R: 25.0000 | ALOSS: -208.6833 | CLOSS: 87.3563 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 317 | S: 79250 | D: 61.0 s | R: 640.0000 | ALOSS: -208.9259 | CLOSS: 86.5950 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 318 | S: 79500 | D: 61.7 s | R: 498.0000 | ALOSS: -207.2947 | CLOSS: 94.3540 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 319 | S: 79750 | D: 61.6 s | R: 942.0000 | ALOSS: -207.2070 | CLOSS: 90.7194 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 320 | S: 80000 | D: 61.2 s | R: 0.0000 | ALOSS: -208.4593 | CLOSS: 114.7237 | AUXLOSS: 0.0000
+Evaluating: logs/reacher_easy/svea/1
+| [32meval[39m | S: 80000 | ER: 570.7333 | ERTEST: 0.0000
+| [33mtrain[39m | E: 321 | S: 80250 | D: 1081.6 s | R: 11.0000 | ALOSS: -208.7757 | CLOSS: 139.9627 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 322 | S: 80500 | D: 62.9 s | R: 359.0000 | ALOSS: -207.1939 | CLOSS: 100.3355 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 323 | S: 80750 | D: 64.3 s | R: 53.0000 | ALOSS: -208.5600 | CLOSS: 90.5773 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 324 | S: 81000 | D: 61.1 s | R: 954.0000 | ALOSS: -208.0296 | CLOSS: 120.2808 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 325 | S: 81250 | D: 63.1 s | R: 956.0000 | ALOSS: -207.9547 | CLOSS: 93.5863 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 326 | S: 81500 | D: 64.7 s | R: 72.0000 | ALOSS: -207.3829 | CLOSS: 94.0428 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 327 | S: 81750 | D: 62.1 s | R: 860.0000 | ALOSS: -206.7884 | CLOSS: 91.9056 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 328 | S: 82000 | D: 61.2 s | R: 0.0000 | ALOSS: -207.6458 | CLOSS: 82.7272 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 329 | S: 82250 | D: 61.0 s | R: 717.0000 | ALOSS: -206.4582 | CLOSS: 94.5813 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 330 | S: 82500 | D: 61.4 s | R: 94.0000 | ALOSS: -207.5973 | CLOSS: 83.5178 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 331 | S: 82750 | D: 61.2 s | R: 18.0000 | ALOSS: -208.2968 | CLOSS: 94.2042 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 332 | S: 83000 | D: 62.1 s | R: 23.0000 | ALOSS: -208.0442 | CLOSS: 89.5150 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 333 | S: 83250 | D: 61.3 s | R: 379.0000 | ALOSS: -210.2887 | CLOSS: 102.0902 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 334 | S: 83500 | D: 62.3 s | R: 928.0000 | ALOSS: -208.5269 | CLOSS: 107.3336 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 335 | S: 83750 | D: 62.0 s | R: 80.0000 | ALOSS: -208.0891 | CLOSS: 93.1180 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 336 | S: 84000 | D: 62.0 s | R: 123.0000 | ALOSS: -205.9306 | CLOSS: 103.6557 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 337 | S: 84250 | D: 61.7 s | R: 18.0000 | ALOSS: -208.9674 | CLOSS: 124.3843 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 338 | S: 84500 | D: 61.8 s | R: 829.0000 | ALOSS: -208.4019 | CLOSS: 92.6581 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 339 | S: 84750 | D: 61.5 s | R: 973.0000 | ALOSS: -209.3572 | CLOSS: 94.9606 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 340 | S: 85000 | D: 62.3 s | R: 976.0000 | ALOSS: -209.3191 | CLOSS: 97.2780 | AUXLOSS: 0.0000
+| [33mtrain[39m | E: 341 | S: 85250 | D: 62.3 s | R: 81.0000 | ALOSS: -209.2940 | CLOSS: 91.1324 | AUXLOSS: 0.0000
