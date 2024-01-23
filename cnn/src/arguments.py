@@ -6,8 +6,8 @@ def parse_args():
 	parser = argparse.ArgumentParser()
 
 	# environment
-	parser.add_argument('--domain_name', default='reacher')
-	parser.add_argument('--task_name', default='easy')
+	parser.add_argument('--domain_name', default='walker')
+	parser.add_argument('--task_name', default='walk')
 	parser.add_argument('--frame_stack', default=3, type=int)
 	parser.add_argument('--action_repeat', default=4, type=int)
 	parser.add_argument('--episode_length', default=1000, type=int)

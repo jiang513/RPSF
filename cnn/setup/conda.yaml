@@ -1,4 +1,4 @@
-name: svea-RPSF
+name: svea-c-rpsf
 channels:
   - defaults
 dependencies:
